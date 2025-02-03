@@ -16,47 +16,41 @@ Future<double?> predictHousePrice(List<double> inputFeatures) async {
     // Load the model file from assets into a temporary directory.
     final modelPath = await _loadModelFile('assets/house_price_model.onnx');
 
-    // Create session options
-    final sessionOptions = OrtSessionOptions()
-      ..setIntraOpNumThreads(1)
-      ..setOptimizationLevel(1);
-
     // Create an ONNX runtime session.
-    session = await OrtSession.fromFile(modelPath, options: sessionOptions);
+    // Note: The first argument must be a File, the second an OrtSessionOptions instance.
+    session = OrtSession.fromFile(File(modelPath), OrtSessionOptions());
 
-    // Convert inputFeatures (List<double>) to a Float32List.
+    // Convert the input features (List<double>) into a Float32List.
     final floatInput = Float32List.fromList(inputFeatures);
 
     // Create the input tensor.
-    // Use OrtValue.tensorFrom methods
-    inputTensor = OrtValue.tensorFrom(
-      value: floatInput,
+    // Here we assume that the package exposes a method called fromBytes.
+    // (If not, check the documentation for the correct tensor creation method.)
+    inputTensor = OrtValue.fromBytes(
+      floatInput.buffer.asUint8List(),
       shape: [1, inputFeatures.length],
+      type: OrtTensorElementDataType.float,
     );
 
     // Run inference.
-    final results = await session.run({
-      'input': inputTensor,
-    });
+    final results = session.run(OrtRunOptions(), {'input': inputTensor});
 
     // Extract the output tensor.
-    // We assume the model returns one output, so we take the first element.
-    if (results.isNotEmpty) {
-      final outputTensor = results.first;
-      
-      // Safely extract the value
-      if (outputTensor.value is List) {
-        final List<dynamic> outData = outputTensor.value as List<dynamic>;
-        return outData.isNotEmpty ? outData.first as double : null;
-      }
+    // We assume the model returns one output tensor.
+    outputTensor = results.isNotEmpty ? results.first : null;
+
+    // Return the predicted price.
+    // We assume outputTensor.value is a List whose first element is a double.
+    if (outputTensor != null && outputTensor.value is List) {
+      final List<dynamic> outData = outputTensor.value as List<dynamic>;
+      return outData.isNotEmpty ? outData.first as double : null;
     }
-    
     return null;
   } catch (e) {
     log.e('Error running ONNX model: $e');
     return null;
   } finally {
-    // Always release resources.
+    // Release resources.
     inputTensor?.release();
     outputTensor?.release();
     session?.release();
