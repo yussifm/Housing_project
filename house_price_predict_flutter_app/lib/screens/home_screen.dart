@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import '../utils/predict.dart';
+import 'package:intl/intl.dart'; // Import for number formatting
+import '../utils/predict.dart'; // Import your prediction utility
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -25,21 +26,41 @@ class _HomeScreenState extends State<HomeScreen> {
         _isLoading = true;
       });
 
-      // Parse user inputs
-      final double totalSqft = double.parse(_sqftController.text);
-      final double bath = double.parse(_bathController.text);
-      final double balcony = double.parse(_balconyController.text);
-      final double size = double.parse(_sizeController.text);
+      try {
+        final double? totalSqft = double.tryParse(_sqftController.text);
+        final double? bath = double.tryParse(_bathController.text);
+        final double? balcony = double.tryParse(_balconyController.text);
+        final double? size = double.tryParse(_sizeController.text);
 
-      final inputFeatures = [totalSqft, bath, balcony, size];
+        if (totalSqft == null ||
+            bath == null ||
+            balcony == null ||
+            size == null) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(content: Text('Please enter valid numbers')),
+          );
+          setState(() {
+            _isLoading = false;
+          });
+          return; // Stop prediction if input is invalid
+        }
 
-      // Run prediction using the ONNX model
-      final predicted = await predictHousePrice(inputFeatures);
+        final inputFeatures = [totalSqft, bath, balcony, size];
+        final predicted = await predictHousePrice(inputFeatures);
 
-      setState(() {
-        _predictedPrice = predicted;
-        _isLoading = false;
-      });
+        setState(() {
+          _predictedPrice = predicted;
+          _isLoading = false;
+        });
+      } catch (e) {
+        setState(() {
+          _isLoading = false;
+        });
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text('Error: $e')), // User-friendly message
+        );
+        print('Error during prediction: $e'); // Log the error for debugging
+      }
     }
   }
 
@@ -117,7 +138,7 @@ class _HomeScreenState extends State<HomeScreen> {
               const SizedBox(height: 20),
               if (_predictedPrice != null)
                 Text(
-                  'Predicted Price: ${_predictedPrice!.toStringAsFixed(2)} Lakhs',
+                  'Predicted Price: ${NumberFormat('#,##,##0', 'en_IN').format(_predictedPrice)} Lakhs', // Formatted price
                   style: const TextStyle(
                       fontSize: 20, fontWeight: FontWeight.bold),
                 ),
