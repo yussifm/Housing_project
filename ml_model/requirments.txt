@@ -6,3 +6,5 @@ matplotlib
 seaborn
 skl2onnx
 onnx
+tensorflow
+onnx-tf

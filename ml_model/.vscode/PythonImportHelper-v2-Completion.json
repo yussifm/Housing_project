@@ -34,6 +34,32 @@
         "documentation": {}
     },
     {
+        "label": "onnx",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "onnx",
+        "description": "onnx",
+        "detail": "onnx",
+        "documentation": {}
+    },
+    {
+        "label": "prepare",
+        "importPath": "onnx_tf.backend",
+        "description": "onnx_tf.backend",
+        "isExtraImport": true,
+        "detail": "onnx_tf.backend",
+        "documentation": {}
+    },
+    {
+        "label": "tensorflow",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tensorflow",
+        "description": "tensorflow",
+        "detail": "tensorflow",
+        "documentation": {}
+    },
+    {
         "label": "pandas",
         "kind": 6,
         "isExtraImport": true,
@@ -143,6 +169,42 @@
         "description": "convert_to_onnx",
         "peekOfCode": "onnx_model = convert_sklearn(model, initial_types=input_features)\n# Save ONNX model\nwith open(\"house_price_model.onnx\", \"wb\") as f:\n    f.write(onnx_model.SerializeToString())\nprint(\"Model successfully converted to ONNX!\")",
         "detail": "convert_to_onnx",
+        "documentation": {}
+    },
+    {
+        "label": "onnx_model",
+        "kind": 5,
+        "importPath": "convert_to_tfl",
+        "description": "convert_to_tfl",
+        "peekOfCode": "onnx_model = onnx.load(\"house_price_model.onnx\")\n# Convert the ONNX model to a TensorFlow model\ntf_rep = prepare(onnx_model)\ntf_rep.export_graph(\"house_price_model.pb\")\n# Convert the TensorFlow model to TFLite format\nconverter = tf.lite.TFLiteConverter.from_saved_model(\"house_price_model.pb\")\ntflite_model = converter.convert()\n# Save the TFLite model to file\nwith open(\"house_price_model.tflite\", \"wb\") as f:\n    f.write(tflite_model)",
+        "detail": "convert_to_tfl",
+        "documentation": {}
+    },
+    {
+        "label": "tf_rep",
+        "kind": 5,
+        "importPath": "convert_to_tfl",
+        "description": "convert_to_tfl",
+        "peekOfCode": "tf_rep = prepare(onnx_model)\ntf_rep.export_graph(\"house_price_model.pb\")\n# Convert the TensorFlow model to TFLite format\nconverter = tf.lite.TFLiteConverter.from_saved_model(\"house_price_model.pb\")\ntflite_model = converter.convert()\n# Save the TFLite model to file\nwith open(\"house_price_model.tflite\", \"wb\") as f:\n    f.write(tflite_model)\nprint(\"Model conversion to TFLite successful!\")",
+        "detail": "convert_to_tfl",
+        "documentation": {}
+    },
+    {
+        "label": "converter",
+        "kind": 5,
+        "importPath": "convert_to_tfl",
+        "description": "convert_to_tfl",
+        "peekOfCode": "converter = tf.lite.TFLiteConverter.from_saved_model(\"house_price_model.pb\")\ntflite_model = converter.convert()\n# Save the TFLite model to file\nwith open(\"house_price_model.tflite\", \"wb\") as f:\n    f.write(tflite_model)\nprint(\"Model conversion to TFLite successful!\")",
+        "detail": "convert_to_tfl",
+        "documentation": {}
+    },
+    {
+        "label": "tflite_model",
+        "kind": 5,
+        "importPath": "convert_to_tfl",
+        "description": "convert_to_tfl",
+        "peekOfCode": "tflite_model = converter.convert()\n# Save the TFLite model to file\nwith open(\"house_price_model.tflite\", \"wb\") as f:\n    f.write(tflite_model)\nprint(\"Model conversion to TFLite successful!\")",
+        "detail": "convert_to_tfl",
         "documentation": {}
     },
     {
