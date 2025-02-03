@@ -1,0 +1,319 @@
+[
+    {
+        "label": "joblib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "joblib",
+        "description": "joblib",
+        "detail": "joblib",
+        "documentation": {}
+    },
+    {
+        "label": "skl2onnx",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "skl2onnx",
+        "description": "skl2onnx",
+        "detail": "skl2onnx",
+        "documentation": {}
+    },
+    {
+        "label": "convert_sklearn",
+        "importPath": "skl2onnx",
+        "description": "skl2onnx",
+        "isExtraImport": true,
+        "detail": "skl2onnx",
+        "documentation": {}
+    },
+    {
+        "label": "FloatTensorType",
+        "importPath": "skl2onnx.common.data_types",
+        "description": "skl2onnx.common.data_types",
+        "isExtraImport": true,
+        "detail": "skl2onnx.common.data_types",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "seaborn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "seaborn",
+        "description": "seaborn",
+        "detail": "seaborn",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "LinearRegression",
+        "importPath": "sklearn.linear_model",
+        "description": "sklearn.linear_model",
+        "isExtraImport": true,
+        "detail": "sklearn.linear_model",
+        "documentation": {}
+    },
+    {
+        "label": "StandardScaler",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "mean_absolute_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "mean_squared_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "convert_to_onnx",
+        "description": "convert_to_onnx",
+        "peekOfCode": "model = joblib.load(\"house_price_model.pkl\")\nscaler = joblib.load(\"scaler.pkl\")\n# Define input type\ninput_features = [(\"float_input\", FloatTensorType([None, 4]))]  # 4 features: sqft, bath, balcony, bhk\n# Convert to ONNX format\nonnx_model = convert_sklearn(model, initial_types=input_features)\n# Save ONNX model\nwith open(\"house_price_model.onnx\", \"wb\") as f:\n    f.write(onnx_model.SerializeToString())\nprint(\"Model successfully converted to ONNX!\")",
+        "detail": "convert_to_onnx",
+        "documentation": {}
+    },
+    {
+        "label": "scaler",
+        "kind": 5,
+        "importPath": "convert_to_onnx",
+        "description": "convert_to_onnx",
+        "peekOfCode": "scaler = joblib.load(\"scaler.pkl\")\n# Define input type\ninput_features = [(\"float_input\", FloatTensorType([None, 4]))]  # 4 features: sqft, bath, balcony, bhk\n# Convert to ONNX format\nonnx_model = convert_sklearn(model, initial_types=input_features)\n# Save ONNX model\nwith open(\"house_price_model.onnx\", \"wb\") as f:\n    f.write(onnx_model.SerializeToString())\nprint(\"Model successfully converted to ONNX!\")",
+        "detail": "convert_to_onnx",
+        "documentation": {}
+    },
+    {
+        "label": "input_features",
+        "kind": 5,
+        "importPath": "convert_to_onnx",
+        "description": "convert_to_onnx",
+        "peekOfCode": "input_features = [(\"float_input\", FloatTensorType([None, 4]))]  # 4 features: sqft, bath, balcony, bhk\n# Convert to ONNX format\nonnx_model = convert_sklearn(model, initial_types=input_features)\n# Save ONNX model\nwith open(\"house_price_model.onnx\", \"wb\") as f:\n    f.write(onnx_model.SerializeToString())\nprint(\"Model successfully converted to ONNX!\")",
+        "detail": "convert_to_onnx",
+        "documentation": {}
+    },
+    {
+        "label": "onnx_model",
+        "kind": 5,
+        "importPath": "convert_to_onnx",
+        "description": "convert_to_onnx",
+        "peekOfCode": "onnx_model = convert_sklearn(model, initial_types=input_features)\n# Save ONNX model\nwith open(\"house_price_model.onnx\", \"wb\") as f:\n    f.write(onnx_model.SerializeToString())\nprint(\"Model successfully converted to ONNX!\")",
+        "detail": "convert_to_onnx",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "df = pd.read_csv(\"data/Bengaluru_House_Data.csv\")\n# Data Cleaning\ndf = df.dropna()  # Remove missing values\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "df = df.dropna()  # Remove missing values\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "df = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "df['total_sqft']",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "df['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]\n# Train-Test Split",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "features",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "features = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features\nscaler = StandardScaler()",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "target",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "target = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "df = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "X = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model\nmodel = LinearRegression()\nmodel.fit(X_train_scaled, y_train)",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "y = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model\nmodel = LinearRegression()\nmodel.fit(X_train_scaled, y_train)\n# Predictions",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "scaler",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "scaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model\nmodel = LinearRegression()\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "X_train_scaled",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "X_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model\nmodel = LinearRegression()\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "X_test_scaled",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "X_test_scaled = scaler.transform(X_test)\n# Train Model\nmodel = LinearRegression()\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "model = LinearRegression()\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "y_train_pred",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "y_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "y_test_pred",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "y_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_model.pkl\")",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "train_mae",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "train_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Model training complete! Saved as 'house_price_model.pkl'.\")",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "test_mae",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "test_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Model training complete! Saved as 'house_price_model.pkl'.\")\n# -------- PLOTTING CHARTS -------- #",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "train_rmse",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "train_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Model training complete! Saved as 'house_price_model.pkl'.\")\n# -------- PLOTTING CHARTS -------- #\n# 1️⃣ Price Distribution",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "test_rmse",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "test_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Model training complete! Saved as 'house_price_model.pkl'.\")\n# -------- PLOTTING CHARTS -------- #\n# 1️⃣ Price Distribution\nplt.figure(figsize=(8, 5))",
+        "detail": "train_model",
+        "documentation": {}
+    }
+]
