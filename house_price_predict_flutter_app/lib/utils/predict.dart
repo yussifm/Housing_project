@@ -1,5 +1,5 @@
 import 'dart:io';
-
+import 'dart:typed_data';
 import 'package:flutter/services.dart';
 import 'package:logger/logger.dart';
 import 'package:onnxruntime/onnxruntime.dart';
@@ -13,28 +13,50 @@ Future<double?> predictHousePrice(List<double> inputFeatures) async {
   OrtValue? outputTensor;
 
   try {
-    // Load model file into a temporary directory
+    // Load the model file from assets into a temporary directory.
     final modelPath = await _loadModelFile('assets/house_price_model.onnx');
 
-    // Create an ONNX runtime session
-    session = OrtSession.fromFile(Env(), File(modelPath));
+    // Create session options
+    final sessionOptions = OrtSessionOptions()
+      ..setIntraOpNumThreads(1)
+      ..setOptimizationLevel(1);
 
-    // Prepare input tensor
-    inputTensor = OrtValue.createTensor(inputFeatures);
+    // Create an ONNX runtime session.
+    session = await OrtSession.fromFile(modelPath, options: sessionOptions);
 
-    // Run inference
-    final results = session.run({'input': inputTensor});
+    // Convert inputFeatures (List<double>) to a Float32List.
+    final floatInput = Float32List.fromList(inputFeatures);
 
-    // Extract output tensor (assuming first output is the predicted value)
-    outputTensor = results['output'];
+    // Create the input tensor.
+    // Use OrtValue.tensorFrom methods
+    inputTensor = OrtValue.tensorFrom(
+      value: floatInput,
+      shape: [1, inputFeatures.length],
+    );
 
-    // Return predicted price (assuming shape [1])
-    return outputTensor?.getTensorData<double>()?.first;
+    // Run inference.
+    final results = await session.run({
+      'input': inputTensor,
+    });
+
+    // Extract the output tensor.
+    // We assume the model returns one output, so we take the first element.
+    if (results.isNotEmpty) {
+      final outputTensor = results.first;
+      
+      // Safely extract the value
+      if (outputTensor.value is List) {
+        final List<dynamic> outData = outputTensor.value as List<dynamic>;
+        return outData.isNotEmpty ? outData.first as double : null;
+      }
+    }
+    
+    return null;
   } catch (e) {
     log.e('Error running ONNX model: $e');
     return null;
   } finally {
-    // Ensure all resources are released
+    // Always release resources.
     inputTensor?.release();
     outputTensor?.release();
     session?.release();
