@@ -28,7 +28,7 @@ Future<double?> predictHousePrice(List<double> inputFeatures) async {
     // Here we assume that the package exposes a method called fromBytes.
     // (If not, check the documentation for the correct tensor creation method.)
     final shape = [1, 2, 3];
-    final inputOrt = OrtValueTensor.createTensorWithDataList(floatInput, shape);
+    final inputOrt = OrtValueTensor.createTensorWithDataList(floatInput);
     final inputs = {'input': inputOrt};
     final runOptions = OrtRunOptions();
     final outputs = await session.runAsync(runOptions, inputs);
