@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart'; // Import for number formatting
+import 'package:onnxruntime/onnxruntime.dart';
 import '../utils/predict.dart'; // Import your prediction utility
 
 class HomeScreen extends StatefulWidget {
@@ -19,6 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   double? _predictedPrice;
   bool _isLoading = false;
+
 
   Future<void> _predictPrice() async {
     if (_formKey.currentState?.validate() ?? false) {
@@ -65,11 +67,18 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   @override
+  void initState() {
+    OrtEnv.instance.init();
+    super.initState();
+  }
+
+  @override
   void dispose() {
     _sqftController.dispose();
     _bathController.dispose();
     _balconyController.dispose();
     _sizeController.dispose();
+    OrtEnv.instance.release();
     super.dispose();
   }
 

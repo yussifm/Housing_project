@@ -11,14 +11,15 @@ Future<double?> predictHousePrice(List<double> inputFeatures) async {
   OrtSession? session;
   OrtValue? inputTensor;
   OrtValue? outputTensor;
+  OrtEnv.instance.init();
+  final options = OrtSessionOptions();
+  final model = await rootBundle.load("assets/house_price_model.onnx");
+
+  
+  
 
   try {
-    // Load the model file from assets into a temporary directory.
-    final modelPath = await _loadModelFile('assets/house_price_model.onnx');
-
-    // Create an ONNX runtime session.
-    // Note: The first argument must be a File, the second an OrtSessionOptions instance.
-    session = OrtSession.fromFile(File(modelPath), OrtSessionOptions());
+    session = OrtSession.fromBuffer(model.buffer.asUint8List(), options);
 
     // Convert the input features (List<double>) into a Float32List.
     final floatInput = Float32List.fromList(inputFeatures);
@@ -26,18 +27,22 @@ Future<double?> predictHousePrice(List<double> inputFeatures) async {
     // Create the input tensor.
     // Here we assume that the package exposes a method called fromBytes.
     // (If not, check the documentation for the correct tensor creation method.)
-    inputTensor = OrtValue.fromBytes(
-      floatInput.buffer.asUint8List(),
-      shape: [1, inputFeatures.length],
-      type: OrtTensorElementDataType.float,
-    );
+    final shape = [1, 2, 3];
+    final inputOrt = OrtValueTensor.createTensorWithDataList(floatInput, shape);
+    final inputs = {'input': inputOrt};
+    final runOptions = OrtRunOptions();
+    final outputs = await session.runAsync(runOptions, inputs);
+    inputOrt.release();
+    runOptions.release();
+    outputs?.forEach((element) {
+      element?.release();
+    });
 
-    // Run inference.
-    final results = session.run(OrtRunOptions(), {'input': inputTensor});
+   
 
     // Extract the output tensor.
     // We assume the model returns one output tensor.
-    outputTensor = results.isNotEmpty ? results.first : null;
+    outputTensor = outputs!.isNotEmpty ? outputs.first : null;
 
     // Return the predicted price.
     // We assume outputTensor.value is a List whose first element is a double.
@@ -51,16 +56,9 @@ Future<double?> predictHousePrice(List<double> inputFeatures) async {
     return null;
   } finally {
     // Release resources.
-    inputTensor?.release();
+    OrtEnv.instance.release();
     outputTensor?.release();
     session?.release();
   }
 }
 
-Future<String> _loadModelFile(String assetPath) async {
-  final modelData = await rootBundle.load(assetPath);
-  final directory = await getTemporaryDirectory();
-  final modelFile = File('${directory.path}/house_price_model.onnx');
-  await modelFile.writeAsBytes(modelData.buffer.asUint8List());
-  return modelFile.path;
-}
