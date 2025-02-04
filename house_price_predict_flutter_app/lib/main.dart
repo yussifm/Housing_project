@@ -13,6 +13,7 @@ class HousePriceApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'House Price Prediction',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
