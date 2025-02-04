@@ -152,15 +152,10 @@ HousingPricePrediction/
 
 ---
 
+## Data Link
+ `https://www.kaggle.com/code/mfaisalqureshi/banglore-house-price-prediction/input`
 ## License
 
 This project is licensed under the MIT License.
 
 ---
-
-## Notes
-
-- Ensure that your CSV dataset is clean and properly formatted as expected by the training script.
-- If you update the ML model (change features or architecture), remember to update the Flutter app accordingly (input dimensions, preprocessing, etc.).
-- The Flutter app performs predictions offline, so any changes in the model require a new conversion to ONNX and updating the asset file.
-
