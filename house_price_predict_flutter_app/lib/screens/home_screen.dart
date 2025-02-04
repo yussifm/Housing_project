@@ -147,7 +147,7 @@ class _HomeScreenState extends State<HomeScreen> {
               const SizedBox(height: 20),
               if (_predictedPrice != null)
                 Text(
-                  'Predicted Price: ${NumberFormat('#,##,##0', 'en_IN').format(_predictedPrice)} Lakhs', // Formatted price
+                  'Predicted Price: ${NumberFormat('#,##,##0', 'en_IN').format(_predictedPrice)} Ghc', // Formatted price
                   style: const TextStyle(
                       fontSize: 20, fontWeight: FontWeight.bold),
                 ),
