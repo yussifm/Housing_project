@@ -9,6 +9,24 @@
         "documentation": {}
     },
     {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "onnx",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "onnx",
+        "description": "onnx",
+        "detail": "onnx",
+        "documentation": {}
+    },
+    {
         "label": "skl2onnx",
         "kind": 6,
         "isExtraImport": true,
@@ -31,15 +49,6 @@
         "description": "skl2onnx.common.data_types",
         "isExtraImport": true,
         "detail": "skl2onnx.common.data_types",
-        "documentation": {}
-    },
-    {
-        "label": "onnx",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "onnx",
-        "description": "onnx",
-        "detail": "onnx",
         "documentation": {}
     },
     {
@@ -66,15 +75,6 @@
         "importPath": "pandas",
         "description": "pandas",
         "detail": "pandas",
-        "documentation": {}
-    },
-    {
-        "label": "numpy",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "numpy",
-        "description": "numpy",
-        "detail": "numpy",
         "documentation": {}
     },
     {
@@ -140,7 +140,7 @@
         "kind": 5,
         "importPath": "convert_to_onnx",
         "description": "convert_to_onnx",
-        "peekOfCode": "model = joblib.load(\"house_price_model.pkl\")\nscaler = joblib.load(\"scaler.pkl\")\n# Define input type\ninput_features = [(\"float_input\", FloatTensorType([None, 4]))]  # 4 features: sqft, bath, balcony, bhk\n# Convert to ONNX format\nonnx_model = convert_sklearn(model, initial_types=input_features)\n# Save ONNX model\nwith open(\"house_price_model.onnx\", \"wb\") as f:\n    f.write(onnx_model.SerializeToString())\nprint(\"Model successfully converted to ONNX!\")",
+        "peekOfCode": "model = joblib.load(\"house_price_model.pkl\")\nscaler = joblib.load(\"scaler.pkl\")\n# Define input type\ninput_features = [(\"float_input\", FloatTensorType([None, 4]))]  # 4 features: sqft, bath, balcony, bhk\n# Convert to ONNX format with explicit target opset\nonnx_model = convert_sklearn(\n    model, \n    initial_types=input_features,\n    target_opset=9  # Explicitly set to opset 9\n)",
         "detail": "convert_to_onnx",
         "documentation": {}
     },
@@ -149,7 +149,7 @@
         "kind": 5,
         "importPath": "convert_to_onnx",
         "description": "convert_to_onnx",
-        "peekOfCode": "scaler = joblib.load(\"scaler.pkl\")\n# Define input type\ninput_features = [(\"float_input\", FloatTensorType([None, 4]))]  # 4 features: sqft, bath, balcony, bhk\n# Convert to ONNX format\nonnx_model = convert_sklearn(model, initial_types=input_features)\n# Save ONNX model\nwith open(\"house_price_model.onnx\", \"wb\") as f:\n    f.write(onnx_model.SerializeToString())\nprint(\"Model successfully converted to ONNX!\")",
+        "peekOfCode": "scaler = joblib.load(\"scaler.pkl\")\n# Define input type\ninput_features = [(\"float_input\", FloatTensorType([None, 4]))]  # 4 features: sqft, bath, balcony, bhk\n# Convert to ONNX format with explicit target opset\nonnx_model = convert_sklearn(\n    model, \n    initial_types=input_features,\n    target_opset=9  # Explicitly set to opset 9\n)\n# Save ONNX model",
         "detail": "convert_to_onnx",
         "documentation": {}
     },
@@ -158,7 +158,7 @@
         "kind": 5,
         "importPath": "convert_to_onnx",
         "description": "convert_to_onnx",
-        "peekOfCode": "input_features = [(\"float_input\", FloatTensorType([None, 4]))]  # 4 features: sqft, bath, balcony, bhk\n# Convert to ONNX format\nonnx_model = convert_sklearn(model, initial_types=input_features)\n# Save ONNX model\nwith open(\"house_price_model.onnx\", \"wb\") as f:\n    f.write(onnx_model.SerializeToString())\nprint(\"Model successfully converted to ONNX!\")",
+        "peekOfCode": "input_features = [(\"float_input\", FloatTensorType([None, 4]))]  # 4 features: sqft, bath, balcony, bhk\n# Convert to ONNX format with explicit target opset\nonnx_model = convert_sklearn(\n    model, \n    initial_types=input_features,\n    target_opset=9  # Explicitly set to opset 9\n)\n# Save ONNX model\nwith open(\"house_price_model.onnx\", \"wb\") as f:\n    f.write(onnx_model.SerializeToString())",
         "detail": "convert_to_onnx",
         "documentation": {}
     },
@@ -167,7 +167,7 @@
         "kind": 5,
         "importPath": "convert_to_onnx",
         "description": "convert_to_onnx",
-        "peekOfCode": "onnx_model = convert_sklearn(model, initial_types=input_features)\n# Save ONNX model\nwith open(\"house_price_model.onnx\", \"wb\") as f:\n    f.write(onnx_model.SerializeToString())\nprint(\"Model successfully converted to ONNX!\")",
+        "peekOfCode": "onnx_model = convert_sklearn(\n    model, \n    initial_types=input_features,\n    target_opset=9  # Explicitly set to opset 9\n)\n# Save ONNX model\nwith open(\"house_price_model.onnx\", \"wb\") as f:\n    f.write(onnx_model.SerializeToString())\n# Optional: Validate the ONNX model\ntry:",
         "detail": "convert_to_onnx",
         "documentation": {}
     },
