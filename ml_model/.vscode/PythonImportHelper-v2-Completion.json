@@ -96,6 +96,46 @@
         "documentation": {}
     },
     {
+        "label": "Sequential",
+        "importPath": "tensorflow.keras.models",
+        "description": "tensorflow.keras.models",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.models",
+        "documentation": {}
+    },
+    {
+        "label": "Dense",
+        "importPath": "tensorflow.keras.layers",
+        "description": "tensorflow.keras.layers",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Dropout",
+        "importPath": "tensorflow.keras.layers",
+        "description": "tensorflow.keras.layers",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Adam",
+        "importPath": "tensorflow.keras.optimizers",
+        "description": "tensorflow.keras.optimizers",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.optimizers",
+        "documentation": {}
+    },
+    {
+        "label": "EarlyStopping",
+        "importPath": "tensorflow.keras.callbacks",
+        "description": "tensorflow.keras.callbacks",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.callbacks",
+        "documentation": {}
+    },
+    {
         "label": "train_test_split",
         "importPath": "sklearn.model_selection",
         "description": "sklearn.model_selection",
@@ -104,11 +144,83 @@
         "documentation": {}
     },
     {
-        "label": "LinearRegression",
-        "importPath": "sklearn.linear_model",
-        "description": "sklearn.linear_model",
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
         "isExtraImport": true,
-        "detail": "sklearn.linear_model",
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "StandardScaler",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "StandardScaler",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "StandardScaler",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "StandardScaler",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "StandardScaler",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
         "documentation": {}
     },
     {
@@ -133,6 +245,128 @@
         "description": "sklearn.metrics",
         "isExtraImport": true,
         "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "mean_absolute_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "mean_squared_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "mean_absolute_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "mean_squared_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "mean_absolute_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "mean_squared_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "mean_absolute_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "mean_squared_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "mean_absolute_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "mean_squared_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "DecisionTreeRegressor",
+        "importPath": "sklearn.tree",
+        "description": "sklearn.tree",
+        "isExtraImport": true,
+        "detail": "sklearn.tree",
+        "documentation": {}
+    },
+    {
+        "label": "xgboost",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "xgboost",
+        "description": "xgboost",
+        "detail": "xgboost",
+        "documentation": {}
+    },
+    {
+        "label": "lightgbm",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "lightgbm",
+        "description": "lightgbm",
+        "detail": "lightgbm",
+        "documentation": {}
+    },
+    {
+        "label": "RandomForestRegressor",
+        "importPath": "sklearn.ensemble",
+        "description": "sklearn.ensemble",
+        "isExtraImport": true,
+        "detail": "sklearn.ensemble",
+        "documentation": {}
+    },
+    {
+        "label": "LinearRegression",
+        "importPath": "sklearn.linear_model",
+        "description": "sklearn.linear_model",
+        "isExtraImport": true,
+        "detail": "sklearn.linear_model",
         "documentation": {}
     },
     {
@@ -205,6 +439,942 @@
         "description": "convert_to_tfl",
         "peekOfCode": "tflite_model = converter.convert()\n# Save the TFLite model to file\nwith open(\"house_price_model.tflite\", \"wb\") as f:\n    f.write(tflite_model)\nprint(\"Model conversion to TFLite successful!\")",
         "detail": "convert_to_tfl",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "df = pd.read_csv(\"data/Bengaluru_House_Data.csv\")\n# Data Cleaning: Remove missing values\ndf = df.dropna()\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)\n# Convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Define features and target",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "df = df.dropna()\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)\n# Convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Define features and target\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "df = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)\n# Convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Define features and target\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Ensure dataframe contains only the desired columns\ndf = df[features + [target]]",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "df['total_sqft']",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "df['total_sqft'] = df['total_sqft'].astype(float)\n# Convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Define features and target\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Ensure dataframe contains only the desired columns\ndf = df[features + [target]]\n# Split data into training and testing sets",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "features",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "features = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Ensure dataframe contains only the desired columns\ndf = df[features + [target]]\n# Split data into training and testing sets\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale features (important for neural networks)\nscaler = StandardScaler()",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "target",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "target = 'price'\n# Ensure dataframe contains only the desired columns\ndf = df[features + [target]]\n# Split data into training and testing sets\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale features (important for neural networks)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "df = df[features + [target]]\n# Split data into training and testing sets\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale features (important for neural networks)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Save the scaler for later use",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "X = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale features (important for neural networks)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Save the scaler for later use\njoblib.dump(scaler, \"scaler.pkl\")\n# ================================",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "y = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale features (important for neural networks)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Save the scaler for later use\njoblib.dump(scaler, \"scaler.pkl\")\n# ================================\n# Custom Neural Network Model",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "scaler",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "scaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Save the scaler for later use\njoblib.dump(scaler, \"scaler.pkl\")\n# ================================\n# Custom Neural Network Model\n# ================================\n# Hyperparameters (feel free to modify these)\nn_hidden_layers = 2           # Number of hidden layers",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "X_train_scaled",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "X_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Save the scaler for later use\njoblib.dump(scaler, \"scaler.pkl\")\n# ================================\n# Custom Neural Network Model\n# ================================\n# Hyperparameters (feel free to modify these)\nn_hidden_layers = 2           # Number of hidden layers\nneurons_per_layer = 64        # Number of neurons in each hidden layer",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "X_test_scaled",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "X_test_scaled = scaler.transform(X_test)\n# Save the scaler for later use\njoblib.dump(scaler, \"scaler.pkl\")\n# ================================\n# Custom Neural Network Model\n# ================================\n# Hyperparameters (feel free to modify these)\nn_hidden_layers = 2           # Number of hidden layers\nneurons_per_layer = 64        # Number of neurons in each hidden layer\ndropout_rate = 0.2            # Dropout rate (set to 0 to disable dropout)",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "n_hidden_layers",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "n_hidden_layers = 2           # Number of hidden layers\nneurons_per_layer = 64        # Number of neurons in each hidden layer\ndropout_rate = 0.2            # Dropout rate (set to 0 to disable dropout)\nlearning_rate = 0.001         # Learning rate for the optimizer\nepochs = 100                  # Maximum number of training epochs\nbatch_size = 32               # Batch size\npatience = 10                 # Early stopping patience\n# Build the model\nmodel = Sequential()\n# Input layer",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "neurons_per_layer",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "neurons_per_layer = 64        # Number of neurons in each hidden layer\ndropout_rate = 0.2            # Dropout rate (set to 0 to disable dropout)\nlearning_rate = 0.001         # Learning rate for the optimizer\nepochs = 100                  # Maximum number of training epochs\nbatch_size = 32               # Batch size\npatience = 10                 # Early stopping patience\n# Build the model\nmodel = Sequential()\n# Input layer\nmodel.add(Dense(neurons_per_layer, activation='relu', input_dim=X_train_scaled.shape[1]))",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "dropout_rate",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "dropout_rate = 0.2            # Dropout rate (set to 0 to disable dropout)\nlearning_rate = 0.001         # Learning rate for the optimizer\nepochs = 100                  # Maximum number of training epochs\nbatch_size = 32               # Batch size\npatience = 10                 # Early stopping patience\n# Build the model\nmodel = Sequential()\n# Input layer\nmodel.add(Dense(neurons_per_layer, activation='relu', input_dim=X_train_scaled.shape[1]))\nif dropout_rate > 0:",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "learning_rate",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "learning_rate = 0.001         # Learning rate for the optimizer\nepochs = 100                  # Maximum number of training epochs\nbatch_size = 32               # Batch size\npatience = 10                 # Early stopping patience\n# Build the model\nmodel = Sequential()\n# Input layer\nmodel.add(Dense(neurons_per_layer, activation='relu', input_dim=X_train_scaled.shape[1]))\nif dropout_rate > 0:\n    model.add(Dropout(dropout_rate))",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "epochs",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "epochs = 100                  # Maximum number of training epochs\nbatch_size = 32               # Batch size\npatience = 10                 # Early stopping patience\n# Build the model\nmodel = Sequential()\n# Input layer\nmodel.add(Dense(neurons_per_layer, activation='relu', input_dim=X_train_scaled.shape[1]))\nif dropout_rate > 0:\n    model.add(Dropout(dropout_rate))\n# Additional hidden layers",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "batch_size",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "batch_size = 32               # Batch size\npatience = 10                 # Early stopping patience\n# Build the model\nmodel = Sequential()\n# Input layer\nmodel.add(Dense(neurons_per_layer, activation='relu', input_dim=X_train_scaled.shape[1]))\nif dropout_rate > 0:\n    model.add(Dropout(dropout_rate))\n# Additional hidden layers\nfor _ in range(n_hidden_layers - 1):",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "patience",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "patience = 10                 # Early stopping patience\n# Build the model\nmodel = Sequential()\n# Input layer\nmodel.add(Dense(neurons_per_layer, activation='relu', input_dim=X_train_scaled.shape[1]))\nif dropout_rate > 0:\n    model.add(Dropout(dropout_rate))\n# Additional hidden layers\nfor _ in range(n_hidden_layers - 1):\n    model.add(Dense(neurons_per_layer, activation='relu'))",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "model = Sequential()\n# Input layer\nmodel.add(Dense(neurons_per_layer, activation='relu', input_dim=X_train_scaled.shape[1]))\nif dropout_rate > 0:\n    model.add(Dropout(dropout_rate))\n# Additional hidden layers\nfor _ in range(n_hidden_layers - 1):\n    model.add(Dense(neurons_per_layer, activation='relu'))\n    if dropout_rate > 0:\n        model.add(Dropout(dropout_rate))",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "early_stop",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "early_stop = EarlyStopping(monitor='val_loss', patience=patience, restore_best_weights=True)\n# Train the model\nhistory = model.fit(\n    X_train_scaled, y_train,\n    validation_split=0.1,\n    epochs=epochs,\n    batch_size=batch_size,\n    callbacks=[early_stop],\n    verbose=1\n)",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "history",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "history = model.fit(\n    X_train_scaled, y_train,\n    validation_split=0.1,\n    epochs=epochs,\n    batch_size=batch_size,\n    callbacks=[early_stop],\n    verbose=1\n)\n# ================================\n# Evaluation",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "y_train_pred",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "y_train_pred = model.predict(X_train_scaled).flatten()\ny_test_pred = model.predict(X_test_scaled).flatten()\n# Calculate metrics\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Custom NN Model - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Custom NN Model - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save the Keras model (HDF5 format or SavedModel format)",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "y_test_pred",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "y_test_pred = model.predict(X_test_scaled).flatten()\n# Calculate metrics\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Custom NN Model - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Custom NN Model - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save the Keras model (HDF5 format or SavedModel format)\nmodel.save(\"custom_nn_house_price_model.h5\")",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "train_mae",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "train_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Custom NN Model - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Custom NN Model - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save the Keras model (HDF5 format or SavedModel format)\nmodel.save(\"custom_nn_house_price_model.h5\")\nprint(\"Custom Neural Network model training complete! Saved as 'custom_nn_house_price_model.h5'.\")\n# ================================",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "test_mae",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "test_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Custom NN Model - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Custom NN Model - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save the Keras model (HDF5 format or SavedModel format)\nmodel.save(\"custom_nn_house_price_model.h5\")\nprint(\"Custom Neural Network model training complete! Saved as 'custom_nn_house_price_model.h5'.\")\n# ================================\n# Visualization",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "train_rmse",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "train_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Custom NN Model - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Custom NN Model - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save the Keras model (HDF5 format or SavedModel format)\nmodel.save(\"custom_nn_house_price_model.h5\")\nprint(\"Custom Neural Network model training complete! Saved as 'custom_nn_house_price_model.h5'.\")\n# ================================\n# Visualization\n# ================================",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "test_rmse",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "test_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Custom NN Model - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Custom NN Model - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save the Keras model (HDF5 format or SavedModel format)\nmodel.save(\"custom_nn_house_price_model.h5\")\nprint(\"Custom Neural Network model training complete! Saved as 'custom_nn_house_price_model.h5'.\")\n# ================================\n# Visualization\n# ================================\n# 1️⃣ Price Distribution",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "decision_tree_regressor",
+        "description": "decision_tree_regressor",
+        "peekOfCode": "df = pd.read_csv(\"data/Bengaluru_House_Data.csv\")\n# Data Cleaning\ndf = df.dropna()  # Remove missing values\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')",
+        "detail": "decision_tree_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "decision_tree_regressor",
+        "description": "decision_tree_regressor",
+        "peekOfCode": "df = df.dropna()  # Remove missing values\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'",
+        "detail": "decision_tree_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "decision_tree_regressor",
+        "description": "decision_tree_regressor",
+        "peekOfCode": "df = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]",
+        "detail": "decision_tree_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "df['total_sqft']",
+        "kind": 5,
+        "importPath": "decision_tree_regressor",
+        "description": "decision_tree_regressor",
+        "peekOfCode": "df['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]\n# Train-Test Split",
+        "detail": "decision_tree_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "features",
+        "kind": 5,
+        "importPath": "decision_tree_regressor",
+        "description": "decision_tree_regressor",
+        "peekOfCode": "features = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (optional for tree-based methods, but included for consistency)\nscaler = StandardScaler()",
+        "detail": "decision_tree_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "target",
+        "kind": 5,
+        "importPath": "decision_tree_regressor",
+        "description": "decision_tree_regressor",
+        "peekOfCode": "target = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (optional for tree-based methods, but included for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)",
+        "detail": "decision_tree_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "decision_tree_regressor",
+        "description": "decision_tree_regressor",
+        "peekOfCode": "df = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (optional for tree-based methods, but included for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: Decision Tree Regressor",
+        "detail": "decision_tree_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": "decision_tree_regressor",
+        "description": "decision_tree_regressor",
+        "peekOfCode": "X = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (optional for tree-based methods, but included for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: Decision Tree Regressor\nmodel = DecisionTreeRegressor(random_state=42)\nmodel.fit(X_train_scaled, y_train)",
+        "detail": "decision_tree_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "decision_tree_regressor",
+        "description": "decision_tree_regressor",
+        "peekOfCode": "y = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (optional for tree-based methods, but included for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: Decision Tree Regressor\nmodel = DecisionTreeRegressor(random_state=42)\nmodel.fit(X_train_scaled, y_train)\n# Predictions",
+        "detail": "decision_tree_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "scaler",
+        "kind": 5,
+        "importPath": "decision_tree_regressor",
+        "description": "decision_tree_regressor",
+        "peekOfCode": "scaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: Decision Tree Regressor\nmodel = DecisionTreeRegressor(random_state=42)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance",
+        "detail": "decision_tree_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "X_train_scaled",
+        "kind": 5,
+        "importPath": "decision_tree_regressor",
+        "description": "decision_tree_regressor",
+        "peekOfCode": "X_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: Decision Tree Regressor\nmodel = DecisionTreeRegressor(random_state=42)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)",
+        "detail": "decision_tree_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "X_test_scaled",
+        "kind": 5,
+        "importPath": "decision_tree_regressor",
+        "description": "decision_tree_regressor",
+        "peekOfCode": "X_test_scaled = scaler.transform(X_test)\n# Train Model: Decision Tree Regressor\nmodel = DecisionTreeRegressor(random_state=42)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)",
+        "detail": "decision_tree_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "decision_tree_regressor",
+        "description": "decision_tree_regressor",
+        "peekOfCode": "model = DecisionTreeRegressor(random_state=42)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))",
+        "detail": "decision_tree_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "y_train_pred",
+        "kind": 5,
+        "importPath": "decision_tree_regressor",
+        "description": "decision_tree_regressor",
+        "peekOfCode": "y_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Decision Tree Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Decision Tree Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler",
+        "detail": "decision_tree_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "y_test_pred",
+        "kind": 5,
+        "importPath": "decision_tree_regressor",
+        "description": "decision_tree_regressor",
+        "peekOfCode": "y_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Decision Tree Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Decision Tree Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_decision_tree_model.pkl\")",
+        "detail": "decision_tree_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "train_mae",
+        "kind": 5,
+        "importPath": "decision_tree_regressor",
+        "description": "decision_tree_regressor",
+        "peekOfCode": "train_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Decision Tree Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Decision Tree Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_decision_tree_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Decision Tree model training complete! Saved as 'house_price_decision_tree_model.pkl'.\")",
+        "detail": "decision_tree_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "test_mae",
+        "kind": 5,
+        "importPath": "decision_tree_regressor",
+        "description": "decision_tree_regressor",
+        "peekOfCode": "test_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Decision Tree Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Decision Tree Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_decision_tree_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Decision Tree model training complete! Saved as 'house_price_decision_tree_model.pkl'.\")\n# -------- PLOTTING CHARTS -------- #",
+        "detail": "decision_tree_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "train_rmse",
+        "kind": 5,
+        "importPath": "decision_tree_regressor",
+        "description": "decision_tree_regressor",
+        "peekOfCode": "train_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Decision Tree Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Decision Tree Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_decision_tree_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Decision Tree model training complete! Saved as 'house_price_decision_tree_model.pkl'.\")\n# -------- PLOTTING CHARTS -------- #\n# 1️⃣ Price Distribution",
+        "detail": "decision_tree_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "test_rmse",
+        "kind": 5,
+        "importPath": "decision_tree_regressor",
+        "description": "decision_tree_regressor",
+        "peekOfCode": "test_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Decision Tree Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Decision Tree Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_decision_tree_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Decision Tree model training complete! Saved as 'house_price_decision_tree_model.pkl'.\")\n# -------- PLOTTING CHARTS -------- #\n# 1️⃣ Price Distribution\nplt.figure(figsize=(8, 5))",
+        "detail": "decision_tree_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "gradient_boosting_xgboost",
+        "description": "gradient_boosting_xgboost",
+        "peekOfCode": "df = pd.read_csv(\"data/Bengaluru_House_Data.csv\")\n# Data Cleaning\ndf = df.dropna()  # Remove missing values\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')",
+        "detail": "gradient_boosting_xgboost",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "gradient_boosting_xgboost",
+        "description": "gradient_boosting_xgboost",
+        "peekOfCode": "df = df.dropna()  # Remove missing values\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'",
+        "detail": "gradient_boosting_xgboost",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "gradient_boosting_xgboost",
+        "description": "gradient_boosting_xgboost",
+        "peekOfCode": "df = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]",
+        "detail": "gradient_boosting_xgboost",
+        "documentation": {}
+    },
+    {
+        "label": "df['total_sqft']",
+        "kind": 5,
+        "importPath": "gradient_boosting_xgboost",
+        "description": "gradient_boosting_xgboost",
+        "peekOfCode": "df['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]\n# Train-Test Split",
+        "detail": "gradient_boosting_xgboost",
+        "documentation": {}
+    },
+    {
+        "label": "features",
+        "kind": 5,
+        "importPath": "gradient_boosting_xgboost",
+        "description": "gradient_boosting_xgboost",
+        "peekOfCode": "features = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (XGBoost can work without scaling but we keep it for consistency)\nscaler = StandardScaler()",
+        "detail": "gradient_boosting_xgboost",
+        "documentation": {}
+    },
+    {
+        "label": "target",
+        "kind": 5,
+        "importPath": "gradient_boosting_xgboost",
+        "description": "gradient_boosting_xgboost",
+        "peekOfCode": "target = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (XGBoost can work without scaling but we keep it for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)",
+        "detail": "gradient_boosting_xgboost",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "gradient_boosting_xgboost",
+        "description": "gradient_boosting_xgboost",
+        "peekOfCode": "df = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (XGBoost can work without scaling but we keep it for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: XGBoost Regressor",
+        "detail": "gradient_boosting_xgboost",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": "gradient_boosting_xgboost",
+        "description": "gradient_boosting_xgboost",
+        "peekOfCode": "X = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (XGBoost can work without scaling but we keep it for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: XGBoost Regressor\nmodel = xgb.XGBRegressor(random_state=42, n_estimators=100, objective='reg:squarederror')\nmodel.fit(X_train_scaled, y_train)",
+        "detail": "gradient_boosting_xgboost",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "gradient_boosting_xgboost",
+        "description": "gradient_boosting_xgboost",
+        "peekOfCode": "y = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (XGBoost can work without scaling but we keep it for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: XGBoost Regressor\nmodel = xgb.XGBRegressor(random_state=42, n_estimators=100, objective='reg:squarederror')\nmodel.fit(X_train_scaled, y_train)\n# Predictions",
+        "detail": "gradient_boosting_xgboost",
+        "documentation": {}
+    },
+    {
+        "label": "scaler",
+        "kind": 5,
+        "importPath": "gradient_boosting_xgboost",
+        "description": "gradient_boosting_xgboost",
+        "peekOfCode": "scaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: XGBoost Regressor\nmodel = xgb.XGBRegressor(random_state=42, n_estimators=100, objective='reg:squarederror')\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance",
+        "detail": "gradient_boosting_xgboost",
+        "documentation": {}
+    },
+    {
+        "label": "X_train_scaled",
+        "kind": 5,
+        "importPath": "gradient_boosting_xgboost",
+        "description": "gradient_boosting_xgboost",
+        "peekOfCode": "X_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: XGBoost Regressor\nmodel = xgb.XGBRegressor(random_state=42, n_estimators=100, objective='reg:squarederror')\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)",
+        "detail": "gradient_boosting_xgboost",
+        "documentation": {}
+    },
+    {
+        "label": "X_test_scaled",
+        "kind": 5,
+        "importPath": "gradient_boosting_xgboost",
+        "description": "gradient_boosting_xgboost",
+        "peekOfCode": "X_test_scaled = scaler.transform(X_test)\n# Train Model: XGBoost Regressor\nmodel = xgb.XGBRegressor(random_state=42, n_estimators=100, objective='reg:squarederror')\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)",
+        "detail": "gradient_boosting_xgboost",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "gradient_boosting_xgboost",
+        "description": "gradient_boosting_xgboost",
+        "peekOfCode": "model = xgb.XGBRegressor(random_state=42, n_estimators=100, objective='reg:squarederror')\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))",
+        "detail": "gradient_boosting_xgboost",
+        "documentation": {}
+    },
+    {
+        "label": "y_train_pred",
+        "kind": 5,
+        "importPath": "gradient_boosting_xgboost",
+        "description": "gradient_boosting_xgboost",
+        "peekOfCode": "y_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"XGBoost Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"XGBoost Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler",
+        "detail": "gradient_boosting_xgboost",
+        "documentation": {}
+    },
+    {
+        "label": "y_test_pred",
+        "kind": 5,
+        "importPath": "gradient_boosting_xgboost",
+        "description": "gradient_boosting_xgboost",
+        "peekOfCode": "y_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"XGBoost Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"XGBoost Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_xgboost_model.pkl\")",
+        "detail": "gradient_boosting_xgboost",
+        "documentation": {}
+    },
+    {
+        "label": "train_mae",
+        "kind": 5,
+        "importPath": "gradient_boosting_xgboost",
+        "description": "gradient_boosting_xgboost",
+        "peekOfCode": "train_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"XGBoost Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"XGBoost Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_xgboost_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"XGBoost model training complete! Saved as 'house_price_xgboost_model.pkl'.\")",
+        "detail": "gradient_boosting_xgboost",
+        "documentation": {}
+    },
+    {
+        "label": "test_mae",
+        "kind": 5,
+        "importPath": "gradient_boosting_xgboost",
+        "description": "gradient_boosting_xgboost",
+        "peekOfCode": "test_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"XGBoost Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"XGBoost Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_xgboost_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"XGBoost model training complete! Saved as 'house_price_xgboost_model.pkl'.\")\n# -------- PLOTTING CHARTS -------- #",
+        "detail": "gradient_boosting_xgboost",
+        "documentation": {}
+    },
+    {
+        "label": "train_rmse",
+        "kind": 5,
+        "importPath": "gradient_boosting_xgboost",
+        "description": "gradient_boosting_xgboost",
+        "peekOfCode": "train_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"XGBoost Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"XGBoost Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_xgboost_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"XGBoost model training complete! Saved as 'house_price_xgboost_model.pkl'.\")\n# -------- PLOTTING CHARTS -------- #\n# 1️⃣ Price Distribution",
+        "detail": "gradient_boosting_xgboost",
+        "documentation": {}
+    },
+    {
+        "label": "test_rmse",
+        "kind": 5,
+        "importPath": "gradient_boosting_xgboost",
+        "description": "gradient_boosting_xgboost",
+        "peekOfCode": "test_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"XGBoost Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"XGBoost Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_xgboost_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"XGBoost model training complete! Saved as 'house_price_xgboost_model.pkl'.\")\n# -------- PLOTTING CHARTS -------- #\n# 1️⃣ Price Distribution\nplt.figure(figsize=(8, 5))",
+        "detail": "gradient_boosting_xgboost",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "gradient_boost_lightgbm",
+        "description": "gradient_boost_lightgbm",
+        "peekOfCode": "df = pd.read_csv(\"data/Bengaluru_House_Data.csv\")\n# Data Cleaning\ndf = df.dropna()  # Remove missing values\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')",
+        "detail": "gradient_boost_lightgbm",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "gradient_boost_lightgbm",
+        "description": "gradient_boost_lightgbm",
+        "peekOfCode": "df = df.dropna()  # Remove missing values\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'",
+        "detail": "gradient_boost_lightgbm",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "gradient_boost_lightgbm",
+        "description": "gradient_boost_lightgbm",
+        "peekOfCode": "df = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]",
+        "detail": "gradient_boost_lightgbm",
+        "documentation": {}
+    },
+    {
+        "label": "df['total_sqft']",
+        "kind": 5,
+        "importPath": "gradient_boost_lightgbm",
+        "description": "gradient_boost_lightgbm",
+        "peekOfCode": "df['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]\n# Train-Test Split",
+        "detail": "gradient_boost_lightgbm",
+        "documentation": {}
+    },
+    {
+        "label": "features",
+        "kind": 5,
+        "importPath": "gradient_boost_lightgbm",
+        "description": "gradient_boost_lightgbm",
+        "peekOfCode": "features = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (LightGBM can handle unscaled data, but scaling is kept for consistency)\nscaler = StandardScaler()",
+        "detail": "gradient_boost_lightgbm",
+        "documentation": {}
+    },
+    {
+        "label": "target",
+        "kind": 5,
+        "importPath": "gradient_boost_lightgbm",
+        "description": "gradient_boost_lightgbm",
+        "peekOfCode": "target = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (LightGBM can handle unscaled data, but scaling is kept for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)",
+        "detail": "gradient_boost_lightgbm",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "gradient_boost_lightgbm",
+        "description": "gradient_boost_lightgbm",
+        "peekOfCode": "df = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (LightGBM can handle unscaled data, but scaling is kept for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: LightGBM Regressor",
+        "detail": "gradient_boost_lightgbm",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": "gradient_boost_lightgbm",
+        "description": "gradient_boost_lightgbm",
+        "peekOfCode": "X = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (LightGBM can handle unscaled data, but scaling is kept for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: LightGBM Regressor\nmodel = lgb.LGBMRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)",
+        "detail": "gradient_boost_lightgbm",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "gradient_boost_lightgbm",
+        "description": "gradient_boost_lightgbm",
+        "peekOfCode": "y = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (LightGBM can handle unscaled data, but scaling is kept for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: LightGBM Regressor\nmodel = lgb.LGBMRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)\n# Predictions",
+        "detail": "gradient_boost_lightgbm",
+        "documentation": {}
+    },
+    {
+        "label": "scaler",
+        "kind": 5,
+        "importPath": "gradient_boost_lightgbm",
+        "description": "gradient_boost_lightgbm",
+        "peekOfCode": "scaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: LightGBM Regressor\nmodel = lgb.LGBMRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance",
+        "detail": "gradient_boost_lightgbm",
+        "documentation": {}
+    },
+    {
+        "label": "X_train_scaled",
+        "kind": 5,
+        "importPath": "gradient_boost_lightgbm",
+        "description": "gradient_boost_lightgbm",
+        "peekOfCode": "X_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: LightGBM Regressor\nmodel = lgb.LGBMRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)",
+        "detail": "gradient_boost_lightgbm",
+        "documentation": {}
+    },
+    {
+        "label": "X_test_scaled",
+        "kind": 5,
+        "importPath": "gradient_boost_lightgbm",
+        "description": "gradient_boost_lightgbm",
+        "peekOfCode": "X_test_scaled = scaler.transform(X_test)\n# Train Model: LightGBM Regressor\nmodel = lgb.LGBMRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)",
+        "detail": "gradient_boost_lightgbm",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "gradient_boost_lightgbm",
+        "description": "gradient_boost_lightgbm",
+        "peekOfCode": "model = lgb.LGBMRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))",
+        "detail": "gradient_boost_lightgbm",
+        "documentation": {}
+    },
+    {
+        "label": "y_train_pred",
+        "kind": 5,
+        "importPath": "gradient_boost_lightgbm",
+        "description": "gradient_boost_lightgbm",
+        "peekOfCode": "y_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"LightGBM Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"LightGBM Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler",
+        "detail": "gradient_boost_lightgbm",
+        "documentation": {}
+    },
+    {
+        "label": "y_test_pred",
+        "kind": 5,
+        "importPath": "gradient_boost_lightgbm",
+        "description": "gradient_boost_lightgbm",
+        "peekOfCode": "y_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"LightGBM Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"LightGBM Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_lightgbm_model.pkl\")",
+        "detail": "gradient_boost_lightgbm",
+        "documentation": {}
+    },
+    {
+        "label": "train_mae",
+        "kind": 5,
+        "importPath": "gradient_boost_lightgbm",
+        "description": "gradient_boost_lightgbm",
+        "peekOfCode": "train_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"LightGBM Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"LightGBM Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_lightgbm_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"LightGBM model training complete! Saved as 'house_price_lightgbm_model.pkl'.\")",
+        "detail": "gradient_boost_lightgbm",
+        "documentation": {}
+    },
+    {
+        "label": "test_mae",
+        "kind": 5,
+        "importPath": "gradient_boost_lightgbm",
+        "description": "gradient_boost_lightgbm",
+        "peekOfCode": "test_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"LightGBM Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"LightGBM Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_lightgbm_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"LightGBM model training complete! Saved as 'house_price_lightgbm_model.pkl'.\")\n# -------- PLOTTING CHARTS -------- #",
+        "detail": "gradient_boost_lightgbm",
+        "documentation": {}
+    },
+    {
+        "label": "train_rmse",
+        "kind": 5,
+        "importPath": "gradient_boost_lightgbm",
+        "description": "gradient_boost_lightgbm",
+        "peekOfCode": "train_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"LightGBM Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"LightGBM Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_lightgbm_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"LightGBM model training complete! Saved as 'house_price_lightgbm_model.pkl'.\")\n# -------- PLOTTING CHARTS -------- #\n# 1️⃣ Price Distribution",
+        "detail": "gradient_boost_lightgbm",
+        "documentation": {}
+    },
+    {
+        "label": "test_rmse",
+        "kind": 5,
+        "importPath": "gradient_boost_lightgbm",
+        "description": "gradient_boost_lightgbm",
+        "peekOfCode": "test_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"LightGBM Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"LightGBM Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_lightgbm_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"LightGBM model training complete! Saved as 'house_price_lightgbm_model.pkl'.\")\n# -------- PLOTTING CHARTS -------- #\n# 1️⃣ Price Distribution\nplt.figure(figsize=(8, 5))",
+        "detail": "gradient_boost_lightgbm",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "random_forest_regressor",
+        "description": "random_forest_regressor",
+        "peekOfCode": "df = pd.read_csv(\"data/Bengaluru_House_Data.csv\")\n# Data Cleaning\ndf = df.dropna()  # Remove missing values\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')",
+        "detail": "random_forest_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "random_forest_regressor",
+        "description": "random_forest_regressor",
+        "peekOfCode": "df = df.dropna()  # Remove missing values\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'",
+        "detail": "random_forest_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "random_forest_regressor",
+        "description": "random_forest_regressor",
+        "peekOfCode": "df = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]",
+        "detail": "random_forest_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "df['total_sqft']",
+        "kind": 5,
+        "importPath": "random_forest_regressor",
+        "description": "random_forest_regressor",
+        "peekOfCode": "df['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]\n# Train-Test Split",
+        "detail": "random_forest_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "features",
+        "kind": 5,
+        "importPath": "random_forest_regressor",
+        "description": "random_forest_regressor",
+        "peekOfCode": "features = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (optional for tree-based methods, but included for consistency)\nscaler = StandardScaler()",
+        "detail": "random_forest_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "target",
+        "kind": 5,
+        "importPath": "random_forest_regressor",
+        "description": "random_forest_regressor",
+        "peekOfCode": "target = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (optional for tree-based methods, but included for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)",
+        "detail": "random_forest_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "random_forest_regressor",
+        "description": "random_forest_regressor",
+        "peekOfCode": "df = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (optional for tree-based methods, but included for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: Random Forest Regressor",
+        "detail": "random_forest_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": "random_forest_regressor",
+        "description": "random_forest_regressor",
+        "peekOfCode": "X = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (optional for tree-based methods, but included for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: Random Forest Regressor\nmodel = RandomForestRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)",
+        "detail": "random_forest_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "random_forest_regressor",
+        "description": "random_forest_regressor",
+        "peekOfCode": "y = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (optional for tree-based methods, but included for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: Random Forest Regressor\nmodel = RandomForestRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)\n# Predictions",
+        "detail": "random_forest_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "scaler",
+        "kind": 5,
+        "importPath": "random_forest_regressor",
+        "description": "random_forest_regressor",
+        "peekOfCode": "scaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: Random Forest Regressor\nmodel = RandomForestRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance",
+        "detail": "random_forest_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "X_train_scaled",
+        "kind": 5,
+        "importPath": "random_forest_regressor",
+        "description": "random_forest_regressor",
+        "peekOfCode": "X_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: Random Forest Regressor\nmodel = RandomForestRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)",
+        "detail": "random_forest_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "X_test_scaled",
+        "kind": 5,
+        "importPath": "random_forest_regressor",
+        "description": "random_forest_regressor",
+        "peekOfCode": "X_test_scaled = scaler.transform(X_test)\n# Train Model: Random Forest Regressor\nmodel = RandomForestRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)",
+        "detail": "random_forest_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "random_forest_regressor",
+        "description": "random_forest_regressor",
+        "peekOfCode": "model = RandomForestRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))",
+        "detail": "random_forest_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "y_train_pred",
+        "kind": 5,
+        "importPath": "random_forest_regressor",
+        "description": "random_forest_regressor",
+        "peekOfCode": "y_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Random Forest Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Random Forest Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler",
+        "detail": "random_forest_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "y_test_pred",
+        "kind": 5,
+        "importPath": "random_forest_regressor",
+        "description": "random_forest_regressor",
+        "peekOfCode": "y_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Random Forest Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Random Forest Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_random_forest_model.pkl\")",
+        "detail": "random_forest_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "train_mae",
+        "kind": 5,
+        "importPath": "random_forest_regressor",
+        "description": "random_forest_regressor",
+        "peekOfCode": "train_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Random Forest Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Random Forest Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_random_forest_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Random Forest model training complete! Saved as 'house_price_random_forest_model.pkl'.\")",
+        "detail": "random_forest_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "test_mae",
+        "kind": 5,
+        "importPath": "random_forest_regressor",
+        "description": "random_forest_regressor",
+        "peekOfCode": "test_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Random Forest Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Random Forest Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_random_forest_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Random Forest model training complete! Saved as 'house_price_random_forest_model.pkl'.\")\n# -------- PLOTTING CHARTS -------- #",
+        "detail": "random_forest_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "train_rmse",
+        "kind": 5,
+        "importPath": "random_forest_regressor",
+        "description": "random_forest_regressor",
+        "peekOfCode": "train_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Random Forest Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Random Forest Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_random_forest_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Random Forest model training complete! Saved as 'house_price_random_forest_model.pkl'.\")\n# -------- PLOTTING CHARTS -------- #\n# 1️⃣ Price Distribution",
+        "detail": "random_forest_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "test_rmse",
+        "kind": 5,
+        "importPath": "random_forest_regressor",
+        "description": "random_forest_regressor",
+        "peekOfCode": "test_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Random Forest Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Random Forest Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_random_forest_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Random Forest model training complete! Saved as 'house_price_random_forest_model.pkl'.\")\n# -------- PLOTTING CHARTS -------- #\n# 1️⃣ Price Distribution\nplt.figure(figsize=(8, 5))",
+        "detail": "random_forest_regressor",
         "documentation": {}
     },
     {
