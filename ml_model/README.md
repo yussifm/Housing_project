@@ -1,4 +1,3 @@
-Below is an updated **README.md** file that incorporates the full list of dependencies, explains the various models used, and provides setup instructions for both the ML model and the Flutter app.
 
 ```markdown
 # Housing Price Prediction Project
