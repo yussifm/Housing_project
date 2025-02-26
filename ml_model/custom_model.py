@@ -55,7 +55,7 @@ joblib.dump(scaler, "scaler.pkl")
 # ================================
 
 # Hyperparameters (feel free to modify these)
-n_hidden_layers = 2           # Number of hidden layers
+n_hidden_layers = 3           # Number of hidden layers
 neurons_per_layer = 64        # Number of neurons in each hidden layer
 dropout_rate = 0.2            # Dropout rate (set to 0 to disable dropout)
 learning_rate = 0.001         # Learning rate for the optimizer

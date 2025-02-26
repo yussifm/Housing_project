@@ -527,7 +527,7 @@
         "kind": 5,
         "importPath": "custom_model",
         "description": "custom_model",
-        "peekOfCode": "scaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Save the scaler for later use\njoblib.dump(scaler, \"scaler.pkl\")\n# ================================\n# Custom Neural Network Model\n# ================================\n# Hyperparameters (feel free to modify these)\nn_hidden_layers = 2           # Number of hidden layers",
+        "peekOfCode": "scaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Save the scaler for later use\njoblib.dump(scaler, \"scaler.pkl\")\n# ================================\n# Custom Neural Network Model\n# ================================\n# Hyperparameters (feel free to modify these)\nn_hidden_layers = 3           # Number of hidden layers",
         "detail": "custom_model",
         "documentation": {}
     },
@@ -536,7 +536,7 @@
         "kind": 5,
         "importPath": "custom_model",
         "description": "custom_model",
-        "peekOfCode": "X_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Save the scaler for later use\njoblib.dump(scaler, \"scaler.pkl\")\n# ================================\n# Custom Neural Network Model\n# ================================\n# Hyperparameters (feel free to modify these)\nn_hidden_layers = 2           # Number of hidden layers\nneurons_per_layer = 64        # Number of neurons in each hidden layer",
+        "peekOfCode": "X_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Save the scaler for later use\njoblib.dump(scaler, \"scaler.pkl\")\n# ================================\n# Custom Neural Network Model\n# ================================\n# Hyperparameters (feel free to modify these)\nn_hidden_layers = 3           # Number of hidden layers\nneurons_per_layer = 64        # Number of neurons in each hidden layer",
         "detail": "custom_model",
         "documentation": {}
     },
@@ -545,7 +545,7 @@
         "kind": 5,
         "importPath": "custom_model",
         "description": "custom_model",
-        "peekOfCode": "X_test_scaled = scaler.transform(X_test)\n# Save the scaler for later use\njoblib.dump(scaler, \"scaler.pkl\")\n# ================================\n# Custom Neural Network Model\n# ================================\n# Hyperparameters (feel free to modify these)\nn_hidden_layers = 2           # Number of hidden layers\nneurons_per_layer = 64        # Number of neurons in each hidden layer\ndropout_rate = 0.2            # Dropout rate (set to 0 to disable dropout)",
+        "peekOfCode": "X_test_scaled = scaler.transform(X_test)\n# Save the scaler for later use\njoblib.dump(scaler, \"scaler.pkl\")\n# ================================\n# Custom Neural Network Model\n# ================================\n# Hyperparameters (feel free to modify these)\nn_hidden_layers = 3           # Number of hidden layers\nneurons_per_layer = 64        # Number of neurons in each hidden layer\ndropout_rate = 0.2            # Dropout rate (set to 0 to disable dropout)",
         "detail": "custom_model",
         "documentation": {}
     },
@@ -554,7 +554,7 @@
         "kind": 5,
         "importPath": "custom_model",
         "description": "custom_model",
-        "peekOfCode": "n_hidden_layers = 2           # Number of hidden layers\nneurons_per_layer = 64        # Number of neurons in each hidden layer\ndropout_rate = 0.2            # Dropout rate (set to 0 to disable dropout)\nlearning_rate = 0.001         # Learning rate for the optimizer\nepochs = 100                  # Maximum number of training epochs\nbatch_size = 32               # Batch size\npatience = 10                 # Early stopping patience\n# Build the model\nmodel = Sequential()\n# Input layer",
+        "peekOfCode": "n_hidden_layers = 3           # Number of hidden layers\nneurons_per_layer = 64        # Number of neurons in each hidden layer\ndropout_rate = 0.2            # Dropout rate (set to 0 to disable dropout)\nlearning_rate = 0.001         # Learning rate for the optimizer\nepochs = 100                  # Maximum number of training epochs\nbatch_size = 32               # Batch size\npatience = 10                 # Early stopping patience\n# Build the model\nmodel = Sequential()\n# Input layer",
         "detail": "custom_model",
         "documentation": {}
     },
