@@ -9,7 +9,7 @@ from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.callbacks import EarlyStopping
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import mean_absolute_error, mean_squared_error
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score, confusion_matrix, classification_report
 import joblib
 
 # ================================
@@ -108,36 +108,75 @@ train_mae = mean_absolute_error(y_train, y_train_pred)
 test_mae = mean_absolute_error(y_test, y_test_pred)
 train_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))
 test_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))
+train_r2 = r2_score(y_train, y_train_pred)
+test_r2 = r2_score(y_test, y_test_pred)
 
 print(f"Custom NN Model - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}")
 print(f"Custom NN Model - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}")
+print(f"Custom NN Model - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}")
 
-# Save the Keras model (HDF5 format or SavedModel format)
+# Save the Keras model
 model.save("custom_nn_house_price_model.h5")
 print("Custom Neural Network model training complete! Saved as 'custom_nn_house_price_model.h5'.")
+
+# ================================
+# Additional: Confusion Metrics for Regression
+# ================================
+# Note: Confusion matrices are for classification. Here we demonstrate an example by converting
+# the continuous house prices into binary classes using the median price as a threshold.
+
+# Define binary classes based on the median price
+median_price_threshold = df['price'].median()
+y_test_class = (y_test > median_price_threshold).astype(int)
+y_test_pred_class = (y_test_pred > median_price_threshold).astype(int)
+
+conf_matrix = confusion_matrix(y_test_class, y_test_pred_class)
+print("\nConfusion Matrix (Test Data):")
+print(conf_matrix)
+print("\nClassification Report (Test Data):")
+print(classification_report(y_test_class, y_test_pred_class))
+
+# Visualize the confusion matrix
+plt.figure(figsize=(6, 5))
+sns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues')
+plt.title("Confusion Matrix (Test Data)")
+plt.xlabel("Predicted Class")
+plt.ylabel("Actual Class")
+plt.show()
 
 # ================================
 # Visualization
 # ================================
 
-# 1️⃣ Price Distribution
-plt.figure(figsize=(8, 5))
-sns.histplot(df['price'], bins=50, kde=True, color='blue')
-plt.title("Distribution of House Prices")
-plt.xlabel("Price")
-plt.ylabel("Count")
+# 1️⃣ Price Distribution with Mean and Median annotations
+fig, ax = plt.subplots(figsize=(8, 5))
+sns.histplot(df['price'], bins=50, kde=True, color='blue', ax=ax)
+ax.set_title("Distribution of House Prices")
+ax.set_xlabel("Price")
+ax.set_ylabel("Count")
+mean_price = df['price'].mean()
+median_price = df['price'].median()
+xlims = ax.get_xlim()
+ylims = ax.get_ylim()
+ax.text(xlims[1]*0.6, ylims[1]*0.8, f"Mean: {mean_price:.2f}\nMedian: {median_price:.2f}",
+        bbox=dict(facecolor='white', alpha=0.5))
 plt.show()
 
-# 2️⃣ Feature vs Price Scatter Plots
+# 2️⃣ Feature vs. Price Scatter Plots with correlation coefficients
 fig, axes = plt.subplots(2, 2, figsize=(12, 10))
 for i, feature in enumerate(features):
     row, col = divmod(i, 2)
     sns.scatterplot(x=df[feature], y=df['price'], ax=axes[row, col], color='red')
     axes[row, col].set_title(f"{feature} vs Price")
+    # Compute Pearson correlation
+    corr_value = df[feature].corr(df['price'])
+    axes[row, col].text(0.05, 0.95, f"Corr: {corr_value:.2f}", transform=axes[row, col].transAxes,
+                         fontsize=12, verticalalignment='top',
+                         bbox=dict(boxstyle='round', facecolor='white', alpha=0.5))
 plt.tight_layout()
 plt.show()
 
-# 3️⃣ Training vs Test Predictions (using a subset for clarity)
+# 3️⃣ Actual vs. Predicted Prices (Train Data) with performance metrics annotation
 plt.figure(figsize=(8, 5))
 plt.plot(y_train.values[:100], label="Actual Prices", marker='o')
 plt.plot(y_train_pred[:100], label="Predicted Prices", linestyle="dashed", marker='s')
@@ -145,4 +184,7 @@ plt.title("Actual vs Predicted Prices (Train Data) - Custom NN")
 plt.xlabel("House Index")
 plt.ylabel("Price")
 plt.legend()
+plt.text(0.05, 0.95, f"Train MAE: {train_mae:.2f}\nTrain RMSE: {train_rmse:.2f}\nTrain R²: {train_r2:.2f}",
+         transform=plt.gca().transAxes, fontsize=12, verticalalignment='top',
+         bbox=dict(boxstyle='round', facecolor='white', alpha=0.5))
 plt.show()

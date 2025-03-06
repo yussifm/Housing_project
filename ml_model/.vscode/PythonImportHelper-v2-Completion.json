@@ -248,7 +248,7 @@
         "documentation": {}
     },
     {
-        "label": "mean_absolute_error",
+        "label": "r2_score",
         "importPath": "sklearn.metrics",
         "description": "sklearn.metrics",
         "isExtraImport": true,
@@ -256,7 +256,7 @@
         "documentation": {}
     },
     {
-        "label": "mean_squared_error",
+        "label": "confusion_matrix",
         "importPath": "sklearn.metrics",
         "description": "sklearn.metrics",
         "isExtraImport": true,
@@ -264,15 +264,7 @@
         "documentation": {}
     },
     {
-        "label": "mean_absolute_error",
-        "importPath": "sklearn.metrics",
-        "description": "sklearn.metrics",
-        "isExtraImport": true,
-        "detail": "sklearn.metrics",
-        "documentation": {}
-    },
-    {
-        "label": "mean_squared_error",
+        "label": "classification_report",
         "importPath": "sklearn.metrics",
         "description": "sklearn.metrics",
         "isExtraImport": true,
@@ -296,6 +288,30 @@
         "documentation": {}
     },
     {
+        "label": "r2_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "confusion_matrix",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "classification_report",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
         "label": "mean_absolute_error",
         "importPath": "sklearn.metrics",
         "description": "sklearn.metrics",
@@ -312,6 +328,30 @@
         "documentation": {}
     },
     {
+        "label": "r2_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "confusion_matrix",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "classification_report",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
         "label": "mean_absolute_error",
         "importPath": "sklearn.metrics",
         "description": "sklearn.metrics",
@@ -321,6 +361,110 @@
     },
     {
         "label": "mean_squared_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "r2_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "confusion_matrix",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "classification_report",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "mean_absolute_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "mean_squared_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "r2_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "confusion_matrix",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "classification_report",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "mean_absolute_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "mean_squared_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "r2_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "confusion_matrix",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "classification_report",
         "importPath": "sklearn.metrics",
         "description": "sklearn.metrics",
         "isExtraImport": true,
@@ -644,7 +788,7 @@
         "kind": 5,
         "importPath": "custom_model",
         "description": "custom_model",
-        "peekOfCode": "y_train_pred = model.predict(X_train_scaled).flatten()\ny_test_pred = model.predict(X_test_scaled).flatten()\n# Calculate metrics\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Custom NN Model - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Custom NN Model - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save the Keras model (HDF5 format or SavedModel format)",
+        "peekOfCode": "y_train_pred = model.predict(X_train_scaled).flatten()\ny_test_pred = model.predict(X_test_scaled).flatten()\n# Calculate metrics\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Custom NN Model - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")",
         "detail": "custom_model",
         "documentation": {}
     },
@@ -653,7 +797,7 @@
         "kind": 5,
         "importPath": "custom_model",
         "description": "custom_model",
-        "peekOfCode": "y_test_pred = model.predict(X_test_scaled).flatten()\n# Calculate metrics\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Custom NN Model - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Custom NN Model - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save the Keras model (HDF5 format or SavedModel format)\nmodel.save(\"custom_nn_house_price_model.h5\")",
+        "peekOfCode": "y_test_pred = model.predict(X_test_scaled).flatten()\n# Calculate metrics\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Custom NN Model - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Custom NN Model - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")",
         "detail": "custom_model",
         "documentation": {}
     },
@@ -662,7 +806,7 @@
         "kind": 5,
         "importPath": "custom_model",
         "description": "custom_model",
-        "peekOfCode": "train_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Custom NN Model - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Custom NN Model - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save the Keras model (HDF5 format or SavedModel format)\nmodel.save(\"custom_nn_house_price_model.h5\")\nprint(\"Custom Neural Network model training complete! Saved as 'custom_nn_house_price_model.h5'.\")\n# ================================",
+        "peekOfCode": "train_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Custom NN Model - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Custom NN Model - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"Custom NN Model - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save the Keras model",
         "detail": "custom_model",
         "documentation": {}
     },
@@ -671,7 +815,7 @@
         "kind": 5,
         "importPath": "custom_model",
         "description": "custom_model",
-        "peekOfCode": "test_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Custom NN Model - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Custom NN Model - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save the Keras model (HDF5 format or SavedModel format)\nmodel.save(\"custom_nn_house_price_model.h5\")\nprint(\"Custom Neural Network model training complete! Saved as 'custom_nn_house_price_model.h5'.\")\n# ================================\n# Visualization",
+        "peekOfCode": "test_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Custom NN Model - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Custom NN Model - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"Custom NN Model - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save the Keras model\nmodel.save(\"custom_nn_house_price_model.h5\")",
         "detail": "custom_model",
         "documentation": {}
     },
@@ -680,7 +824,7 @@
         "kind": 5,
         "importPath": "custom_model",
         "description": "custom_model",
-        "peekOfCode": "train_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Custom NN Model - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Custom NN Model - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save the Keras model (HDF5 format or SavedModel format)\nmodel.save(\"custom_nn_house_price_model.h5\")\nprint(\"Custom Neural Network model training complete! Saved as 'custom_nn_house_price_model.h5'.\")\n# ================================\n# Visualization\n# ================================",
+        "peekOfCode": "train_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Custom NN Model - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Custom NN Model - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"Custom NN Model - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save the Keras model\nmodel.save(\"custom_nn_house_price_model.h5\")\nprint(\"Custom Neural Network model training complete! Saved as 'custom_nn_house_price_model.h5'.\")",
         "detail": "custom_model",
         "documentation": {}
     },
@@ -689,7 +833,97 @@
         "kind": 5,
         "importPath": "custom_model",
         "description": "custom_model",
-        "peekOfCode": "test_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Custom NN Model - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Custom NN Model - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save the Keras model (HDF5 format or SavedModel format)\nmodel.save(\"custom_nn_house_price_model.h5\")\nprint(\"Custom Neural Network model training complete! Saved as 'custom_nn_house_price_model.h5'.\")\n# ================================\n# Visualization\n# ================================\n# 1️⃣ Price Distribution",
+        "peekOfCode": "test_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Custom NN Model - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Custom NN Model - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"Custom NN Model - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save the Keras model\nmodel.save(\"custom_nn_house_price_model.h5\")\nprint(\"Custom Neural Network model training complete! Saved as 'custom_nn_house_price_model.h5'.\")\n# ================================",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "train_r2",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "train_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Custom NN Model - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Custom NN Model - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"Custom NN Model - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save the Keras model\nmodel.save(\"custom_nn_house_price_model.h5\")\nprint(\"Custom Neural Network model training complete! Saved as 'custom_nn_house_price_model.h5'.\")\n# ================================\n# Additional: Confusion Metrics for Regression",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "test_r2",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "test_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Custom NN Model - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Custom NN Model - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"Custom NN Model - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save the Keras model\nmodel.save(\"custom_nn_house_price_model.h5\")\nprint(\"Custom Neural Network model training complete! Saved as 'custom_nn_house_price_model.h5'.\")\n# ================================\n# Additional: Confusion Metrics for Regression\n# ================================",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "median_price_threshold",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "median_price_threshold = df['price'].median()\ny_test_class = (y_test > median_price_threshold).astype(int)\ny_test_pred_class = (y_test_pred > median_price_threshold).astype(int)\nconf_matrix = confusion_matrix(y_test_class, y_test_pred_class)\nprint(\"\\nConfusion Matrix (Test Data):\")\nprint(conf_matrix)\nprint(\"\\nClassification Report (Test Data):\")\nprint(classification_report(y_test_class, y_test_pred_class))\n# Visualize the confusion matrix\nplt.figure(figsize=(6, 5))",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "y_test_class",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "y_test_class = (y_test > median_price_threshold).astype(int)\ny_test_pred_class = (y_test_pred > median_price_threshold).astype(int)\nconf_matrix = confusion_matrix(y_test_class, y_test_pred_class)\nprint(\"\\nConfusion Matrix (Test Data):\")\nprint(conf_matrix)\nprint(\"\\nClassification Report (Test Data):\")\nprint(classification_report(y_test_class, y_test_pred_class))\n# Visualize the confusion matrix\nplt.figure(figsize=(6, 5))\nsns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues')",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "y_test_pred_class",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "y_test_pred_class = (y_test_pred > median_price_threshold).astype(int)\nconf_matrix = confusion_matrix(y_test_class, y_test_pred_class)\nprint(\"\\nConfusion Matrix (Test Data):\")\nprint(conf_matrix)\nprint(\"\\nClassification Report (Test Data):\")\nprint(classification_report(y_test_class, y_test_pred_class))\n# Visualize the confusion matrix\nplt.figure(figsize=(6, 5))\nsns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues')\nplt.title(\"Confusion Matrix (Test Data)\")",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "conf_matrix",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "conf_matrix = confusion_matrix(y_test_class, y_test_pred_class)\nprint(\"\\nConfusion Matrix (Test Data):\")\nprint(conf_matrix)\nprint(\"\\nClassification Report (Test Data):\")\nprint(classification_report(y_test_class, y_test_pred_class))\n# Visualize the confusion matrix\nplt.figure(figsize=(6, 5))\nsns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues')\nplt.title(\"Confusion Matrix (Test Data)\")\nplt.xlabel(\"Predicted Class\")",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "mean_price",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "mean_price = df['price'].mean()\nmedian_price = df['price'].median()\nxlims = ax.get_xlim()\nylims = ax.get_ylim()\nax.text(xlims[1]*0.6, ylims[1]*0.8, f\"Mean: {mean_price:.2f}\\nMedian: {median_price:.2f}\",\n        bbox=dict(facecolor='white', alpha=0.5))\nplt.show()\n# 2️⃣ Feature vs. Price Scatter Plots with correlation coefficients\nfig, axes = plt.subplots(2, 2, figsize=(12, 10))\nfor i, feature in enumerate(features):",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "median_price",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "median_price = df['price'].median()\nxlims = ax.get_xlim()\nylims = ax.get_ylim()\nax.text(xlims[1]*0.6, ylims[1]*0.8, f\"Mean: {mean_price:.2f}\\nMedian: {median_price:.2f}\",\n        bbox=dict(facecolor='white', alpha=0.5))\nplt.show()\n# 2️⃣ Feature vs. Price Scatter Plots with correlation coefficients\nfig, axes = plt.subplots(2, 2, figsize=(12, 10))\nfor i, feature in enumerate(features):\n    row, col = divmod(i, 2)",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "xlims",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "xlims = ax.get_xlim()\nylims = ax.get_ylim()\nax.text(xlims[1]*0.6, ylims[1]*0.8, f\"Mean: {mean_price:.2f}\\nMedian: {median_price:.2f}\",\n        bbox=dict(facecolor='white', alpha=0.5))\nplt.show()\n# 2️⃣ Feature vs. Price Scatter Plots with correlation coefficients\nfig, axes = plt.subplots(2, 2, figsize=(12, 10))\nfor i, feature in enumerate(features):\n    row, col = divmod(i, 2)\n    sns.scatterplot(x=df[feature], y=df['price'], ax=axes[row, col], color='red')",
+        "detail": "custom_model",
+        "documentation": {}
+    },
+    {
+        "label": "ylims",
+        "kind": 5,
+        "importPath": "custom_model",
+        "description": "custom_model",
+        "peekOfCode": "ylims = ax.get_ylim()\nax.text(xlims[1]*0.6, ylims[1]*0.8, f\"Mean: {mean_price:.2f}\\nMedian: {median_price:.2f}\",\n        bbox=dict(facecolor='white', alpha=0.5))\nplt.show()\n# 2️⃣ Feature vs. Price Scatter Plots with correlation coefficients\nfig, axes = plt.subplots(2, 2, figsize=(12, 10))\nfor i, feature in enumerate(features):\n    row, col = divmod(i, 2)\n    sns.scatterplot(x=df[feature], y=df['price'], ax=axes[row, col], color='red')\n    axes[row, col].set_title(f\"{feature} vs Price\")",
         "detail": "custom_model",
         "documentation": {}
     },
@@ -698,7 +932,7 @@
         "kind": 5,
         "importPath": "decision_tree_regressor",
         "description": "decision_tree_regressor",
-        "peekOfCode": "df = pd.read_csv(\"data/Bengaluru_House_Data.csv\")\n# Data Cleaning\ndf = df.dropna()  # Remove missing values\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')",
+        "peekOfCode": "df = pd.read_csv(\"data/Bengaluru_House_Data.csv\")\n# Data Cleaning\ndf = df.dropna()  # Remove missing values\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# Convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list",
         "detail": "decision_tree_regressor",
         "documentation": {}
     },
@@ -707,7 +941,7 @@
         "kind": 5,
         "importPath": "decision_tree_regressor",
         "description": "decision_tree_regressor",
-        "peekOfCode": "df = df.dropna()  # Remove missing values\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'",
+        "peekOfCode": "df = df.dropna()  # Remove missing values\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# Convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'",
         "detail": "decision_tree_regressor",
         "documentation": {}
     },
@@ -716,7 +950,7 @@
         "kind": 5,
         "importPath": "decision_tree_regressor",
         "description": "decision_tree_regressor",
-        "peekOfCode": "df = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]",
+        "peekOfCode": "df = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# Convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter dataframe to required columns\ndf = df[features + [target]]",
         "detail": "decision_tree_regressor",
         "documentation": {}
     },
@@ -725,7 +959,7 @@
         "kind": 5,
         "importPath": "decision_tree_regressor",
         "description": "decision_tree_regressor",
-        "peekOfCode": "df['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]\n# Train-Test Split",
+        "peekOfCode": "df['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# Convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter dataframe to required columns\ndf = df[features + [target]]\n# Train-Test Split",
         "detail": "decision_tree_regressor",
         "documentation": {}
     },
@@ -734,7 +968,7 @@
         "kind": 5,
         "importPath": "decision_tree_regressor",
         "description": "decision_tree_regressor",
-        "peekOfCode": "features = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (optional for tree-based methods, but included for consistency)\nscaler = StandardScaler()",
+        "peekOfCode": "features = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter dataframe to required columns\ndf = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (optional for tree-based methods, but included for consistency)\nscaler = StandardScaler()",
         "detail": "decision_tree_regressor",
         "documentation": {}
     },
@@ -743,7 +977,7 @@
         "kind": 5,
         "importPath": "decision_tree_regressor",
         "description": "decision_tree_regressor",
-        "peekOfCode": "target = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (optional for tree-based methods, but included for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)",
+        "peekOfCode": "target = 'price'\n# Filter dataframe to required columns\ndf = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (optional for tree-based methods, but included for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)",
         "detail": "decision_tree_regressor",
         "documentation": {}
     },
@@ -752,7 +986,7 @@
         "kind": 5,
         "importPath": "decision_tree_regressor",
         "description": "decision_tree_regressor",
-        "peekOfCode": "df = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (optional for tree-based methods, but included for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: Decision Tree Regressor",
+        "peekOfCode": "df = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (optional for tree-based methods, but included for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# ================================",
         "detail": "decision_tree_regressor",
         "documentation": {}
     },
@@ -761,7 +995,7 @@
         "kind": 5,
         "importPath": "decision_tree_regressor",
         "description": "decision_tree_regressor",
-        "peekOfCode": "X = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (optional for tree-based methods, but included for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: Decision Tree Regressor\nmodel = DecisionTreeRegressor(random_state=42)\nmodel.fit(X_train_scaled, y_train)",
+        "peekOfCode": "X = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (optional for tree-based methods, but included for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# ================================\n# Train Decision Tree Regressor\n# ================================",
         "detail": "decision_tree_regressor",
         "documentation": {}
     },
@@ -770,7 +1004,7 @@
         "kind": 5,
         "importPath": "decision_tree_regressor",
         "description": "decision_tree_regressor",
-        "peekOfCode": "y = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (optional for tree-based methods, but included for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: Decision Tree Regressor\nmodel = DecisionTreeRegressor(random_state=42)\nmodel.fit(X_train_scaled, y_train)\n# Predictions",
+        "peekOfCode": "y = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (optional for tree-based methods, but included for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# ================================\n# Train Decision Tree Regressor\n# ================================\nmodel = DecisionTreeRegressor(random_state=42)",
         "detail": "decision_tree_regressor",
         "documentation": {}
     },
@@ -779,7 +1013,7 @@
         "kind": 5,
         "importPath": "decision_tree_regressor",
         "description": "decision_tree_regressor",
-        "peekOfCode": "scaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: Decision Tree Regressor\nmodel = DecisionTreeRegressor(random_state=42)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance",
+        "peekOfCode": "scaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# ================================\n# Train Decision Tree Regressor\n# ================================\nmodel = DecisionTreeRegressor(random_state=42)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)",
         "detail": "decision_tree_regressor",
         "documentation": {}
     },
@@ -788,7 +1022,7 @@
         "kind": 5,
         "importPath": "decision_tree_regressor",
         "description": "decision_tree_regressor",
-        "peekOfCode": "X_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: Decision Tree Regressor\nmodel = DecisionTreeRegressor(random_state=42)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)",
+        "peekOfCode": "X_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# ================================\n# Train Decision Tree Regressor\n# ================================\nmodel = DecisionTreeRegressor(random_state=42)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)",
         "detail": "decision_tree_regressor",
         "documentation": {}
     },
@@ -797,7 +1031,7 @@
         "kind": 5,
         "importPath": "decision_tree_regressor",
         "description": "decision_tree_regressor",
-        "peekOfCode": "X_test_scaled = scaler.transform(X_test)\n# Train Model: Decision Tree Regressor\nmodel = DecisionTreeRegressor(random_state=42)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)",
+        "peekOfCode": "X_test_scaled = scaler.transform(X_test)\n# ================================\n# Train Decision Tree Regressor\n# ================================\nmodel = DecisionTreeRegressor(random_state=42)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance Metrics",
         "detail": "decision_tree_regressor",
         "documentation": {}
     },
@@ -806,7 +1040,7 @@
         "kind": 5,
         "importPath": "decision_tree_regressor",
         "description": "decision_tree_regressor",
-        "peekOfCode": "model = DecisionTreeRegressor(random_state=42)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))",
+        "peekOfCode": "model = DecisionTreeRegressor(random_state=42)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance Metrics\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))",
         "detail": "decision_tree_regressor",
         "documentation": {}
     },
@@ -815,7 +1049,7 @@
         "kind": 5,
         "importPath": "decision_tree_regressor",
         "description": "decision_tree_regressor",
-        "peekOfCode": "y_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Decision Tree Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Decision Tree Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler",
+        "peekOfCode": "y_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance Metrics\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Decision Tree Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")",
         "detail": "decision_tree_regressor",
         "documentation": {}
     },
@@ -824,7 +1058,7 @@
         "kind": 5,
         "importPath": "decision_tree_regressor",
         "description": "decision_tree_regressor",
-        "peekOfCode": "y_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Decision Tree Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Decision Tree Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_decision_tree_model.pkl\")",
+        "peekOfCode": "y_test_pred = model.predict(X_test_scaled)\n# Model Performance Metrics\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Decision Tree Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Decision Tree Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")",
         "detail": "decision_tree_regressor",
         "documentation": {}
     },
@@ -833,7 +1067,7 @@
         "kind": 5,
         "importPath": "decision_tree_regressor",
         "description": "decision_tree_regressor",
-        "peekOfCode": "train_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Decision Tree Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Decision Tree Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_decision_tree_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Decision Tree model training complete! Saved as 'house_price_decision_tree_model.pkl'.\")",
+        "peekOfCode": "train_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Decision Tree Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Decision Tree Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"Decision Tree Regressor - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save Model & Scaler",
         "detail": "decision_tree_regressor",
         "documentation": {}
     },
@@ -842,7 +1076,7 @@
         "kind": 5,
         "importPath": "decision_tree_regressor",
         "description": "decision_tree_regressor",
-        "peekOfCode": "test_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Decision Tree Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Decision Tree Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_decision_tree_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Decision Tree model training complete! Saved as 'house_price_decision_tree_model.pkl'.\")\n# -------- PLOTTING CHARTS -------- #",
+        "peekOfCode": "test_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Decision Tree Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Decision Tree Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"Decision Tree Regressor - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_decision_tree_model.pkl\")",
         "detail": "decision_tree_regressor",
         "documentation": {}
     },
@@ -851,7 +1085,7 @@
         "kind": 5,
         "importPath": "decision_tree_regressor",
         "description": "decision_tree_regressor",
-        "peekOfCode": "train_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Decision Tree Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Decision Tree Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_decision_tree_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Decision Tree model training complete! Saved as 'house_price_decision_tree_model.pkl'.\")\n# -------- PLOTTING CHARTS -------- #\n# 1️⃣ Price Distribution",
+        "peekOfCode": "train_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Decision Tree Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Decision Tree Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"Decision Tree Regressor - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_decision_tree_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")",
         "detail": "decision_tree_regressor",
         "documentation": {}
     },
@@ -860,7 +1094,97 @@
         "kind": 5,
         "importPath": "decision_tree_regressor",
         "description": "decision_tree_regressor",
-        "peekOfCode": "test_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Decision Tree Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Decision Tree Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_decision_tree_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Decision Tree model training complete! Saved as 'house_price_decision_tree_model.pkl'.\")\n# -------- PLOTTING CHARTS -------- #\n# 1️⃣ Price Distribution\nplt.figure(figsize=(8, 5))",
+        "peekOfCode": "test_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Decision Tree Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Decision Tree Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"Decision Tree Regressor - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_decision_tree_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Decision Tree model training complete! Saved as 'house_price_decision_tree_model.pkl'.\")",
+        "detail": "decision_tree_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "train_r2",
+        "kind": 5,
+        "importPath": "decision_tree_regressor",
+        "description": "decision_tree_regressor",
+        "peekOfCode": "train_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Decision Tree Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Decision Tree Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"Decision Tree Regressor - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_decision_tree_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Decision Tree model training complete! Saved as 'house_price_decision_tree_model.pkl'.\")\n# ================================",
+        "detail": "decision_tree_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "test_r2",
+        "kind": 5,
+        "importPath": "decision_tree_regressor",
+        "description": "decision_tree_regressor",
+        "peekOfCode": "test_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Decision Tree Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Decision Tree Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"Decision Tree Regressor - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_decision_tree_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Decision Tree model training complete! Saved as 'house_price_decision_tree_model.pkl'.\")\n# ================================\n# Additional: Confusion Metrics for Regression",
+        "detail": "decision_tree_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "median_price_threshold",
+        "kind": 5,
+        "importPath": "decision_tree_regressor",
+        "description": "decision_tree_regressor",
+        "peekOfCode": "median_price_threshold = df['price'].median()\ny_test_class = (y_test > median_price_threshold).astype(int)\ny_test_pred_class = (y_test_pred > median_price_threshold).astype(int)\nconf_matrix = confusion_matrix(y_test_class, y_test_pred_class)\nprint(\"\\nConfusion Matrix (Test Data):\")\nprint(conf_matrix)\nprint(\"\\nClassification Report (Test Data):\")\nprint(classification_report(y_test_class, y_test_pred_class))\n# Visualize the confusion matrix\nplt.figure(figsize=(6, 5))",
+        "detail": "decision_tree_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "y_test_class",
+        "kind": 5,
+        "importPath": "decision_tree_regressor",
+        "description": "decision_tree_regressor",
+        "peekOfCode": "y_test_class = (y_test > median_price_threshold).astype(int)\ny_test_pred_class = (y_test_pred > median_price_threshold).astype(int)\nconf_matrix = confusion_matrix(y_test_class, y_test_pred_class)\nprint(\"\\nConfusion Matrix (Test Data):\")\nprint(conf_matrix)\nprint(\"\\nClassification Report (Test Data):\")\nprint(classification_report(y_test_class, y_test_pred_class))\n# Visualize the confusion matrix\nplt.figure(figsize=(6, 5))\nsns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues')",
+        "detail": "decision_tree_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "y_test_pred_class",
+        "kind": 5,
+        "importPath": "decision_tree_regressor",
+        "description": "decision_tree_regressor",
+        "peekOfCode": "y_test_pred_class = (y_test_pred > median_price_threshold).astype(int)\nconf_matrix = confusion_matrix(y_test_class, y_test_pred_class)\nprint(\"\\nConfusion Matrix (Test Data):\")\nprint(conf_matrix)\nprint(\"\\nClassification Report (Test Data):\")\nprint(classification_report(y_test_class, y_test_pred_class))\n# Visualize the confusion matrix\nplt.figure(figsize=(6, 5))\nsns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues')\nplt.title(\"Confusion Matrix (Test Data)\")",
+        "detail": "decision_tree_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "conf_matrix",
+        "kind": 5,
+        "importPath": "decision_tree_regressor",
+        "description": "decision_tree_regressor",
+        "peekOfCode": "conf_matrix = confusion_matrix(y_test_class, y_test_pred_class)\nprint(\"\\nConfusion Matrix (Test Data):\")\nprint(conf_matrix)\nprint(\"\\nClassification Report (Test Data):\")\nprint(classification_report(y_test_class, y_test_pred_class))\n# Visualize the confusion matrix\nplt.figure(figsize=(6, 5))\nsns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues')\nplt.title(\"Confusion Matrix (Test Data)\")\nplt.xlabel(\"Predicted Class\")",
+        "detail": "decision_tree_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "mean_price",
+        "kind": 5,
+        "importPath": "decision_tree_regressor",
+        "description": "decision_tree_regressor",
+        "peekOfCode": "mean_price = df['price'].mean()\nmedian_price = df['price'].median()\nxlims = ax.get_xlim()\nylims = ax.get_ylim()\nax.text(xlims[1]*0.6, ylims[1]*0.8, f\"Mean: {mean_price:.2f}\\nMedian: {median_price:.2f}\",\n        bbox=dict(facecolor='white', alpha=0.5))\nplt.show()\n# 2️⃣ Feature vs. Price Scatter Plots with correlation coefficients\nfig, axes = plt.subplots(2, 2, figsize=(12, 10))\nfor i, feature in enumerate(features):",
+        "detail": "decision_tree_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "median_price",
+        "kind": 5,
+        "importPath": "decision_tree_regressor",
+        "description": "decision_tree_regressor",
+        "peekOfCode": "median_price = df['price'].median()\nxlims = ax.get_xlim()\nylims = ax.get_ylim()\nax.text(xlims[1]*0.6, ylims[1]*0.8, f\"Mean: {mean_price:.2f}\\nMedian: {median_price:.2f}\",\n        bbox=dict(facecolor='white', alpha=0.5))\nplt.show()\n# 2️⃣ Feature vs. Price Scatter Plots with correlation coefficients\nfig, axes = plt.subplots(2, 2, figsize=(12, 10))\nfor i, feature in enumerate(features):\n    row, col = divmod(i, 2)",
+        "detail": "decision_tree_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "xlims",
+        "kind": 5,
+        "importPath": "decision_tree_regressor",
+        "description": "decision_tree_regressor",
+        "peekOfCode": "xlims = ax.get_xlim()\nylims = ax.get_ylim()\nax.text(xlims[1]*0.6, ylims[1]*0.8, f\"Mean: {mean_price:.2f}\\nMedian: {median_price:.2f}\",\n        bbox=dict(facecolor='white', alpha=0.5))\nplt.show()\n# 2️⃣ Feature vs. Price Scatter Plots with correlation coefficients\nfig, axes = plt.subplots(2, 2, figsize=(12, 10))\nfor i, feature in enumerate(features):\n    row, col = divmod(i, 2)\n    sns.scatterplot(x=df[feature], y=df['price'], ax=axes[row, col], color='red')",
+        "detail": "decision_tree_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "ylims",
+        "kind": 5,
+        "importPath": "decision_tree_regressor",
+        "description": "decision_tree_regressor",
+        "peekOfCode": "ylims = ax.get_ylim()\nax.text(xlims[1]*0.6, ylims[1]*0.8, f\"Mean: {mean_price:.2f}\\nMedian: {median_price:.2f}\",\n        bbox=dict(facecolor='white', alpha=0.5))\nplt.show()\n# 2️⃣ Feature vs. Price Scatter Plots with correlation coefficients\nfig, axes = plt.subplots(2, 2, figsize=(12, 10))\nfor i, feature in enumerate(features):\n    row, col = divmod(i, 2)\n    sns.scatterplot(x=df[feature], y=df['price'], ax=axes[row, col], color='red')\n    axes[row, col].set_title(f\"{feature} vs Price\")",
         "detail": "decision_tree_regressor",
         "documentation": {}
     },
@@ -869,7 +1193,7 @@
         "kind": 5,
         "importPath": "gradient_boosting_xgboost",
         "description": "gradient_boosting_xgboost",
-        "peekOfCode": "df = pd.read_csv(\"data/Bengaluru_House_Data.csv\")\n# Data Cleaning\ndf = df.dropna()  # Remove missing values\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')",
+        "peekOfCode": "df = pd.read_csv(\"data/Bengaluru_House_Data.csv\")\n# Data Cleaning: Remove missing values\ndf = df.dropna()\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)\n# Convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list",
         "detail": "gradient_boosting_xgboost",
         "documentation": {}
     },
@@ -878,7 +1202,7 @@
         "kind": 5,
         "importPath": "gradient_boosting_xgboost",
         "description": "gradient_boosting_xgboost",
-        "peekOfCode": "df = df.dropna()  # Remove missing values\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'",
+        "peekOfCode": "df = df.dropna()\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)\n# Convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'",
         "detail": "gradient_boosting_xgboost",
         "documentation": {}
     },
@@ -887,7 +1211,7 @@
         "kind": 5,
         "importPath": "gradient_boosting_xgboost",
         "description": "gradient_boosting_xgboost",
-        "peekOfCode": "df = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]",
+        "peekOfCode": "df = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)\n# Convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to required columns\ndf = df[features + [target]]",
         "detail": "gradient_boosting_xgboost",
         "documentation": {}
     },
@@ -896,7 +1220,7 @@
         "kind": 5,
         "importPath": "gradient_boosting_xgboost",
         "description": "gradient_boosting_xgboost",
-        "peekOfCode": "df['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]\n# Train-Test Split",
+        "peekOfCode": "df['total_sqft'] = df['total_sqft'].astype(float)\n# Convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to required columns\ndf = df[features + [target]]\n# Train-Test Split",
         "detail": "gradient_boosting_xgboost",
         "documentation": {}
     },
@@ -905,7 +1229,7 @@
         "kind": 5,
         "importPath": "gradient_boosting_xgboost",
         "description": "gradient_boosting_xgboost",
-        "peekOfCode": "features = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (XGBoost can work without scaling but we keep it for consistency)\nscaler = StandardScaler()",
+        "peekOfCode": "features = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to required columns\ndf = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (XGBoost can work without scaling, but we keep it for consistency)\nscaler = StandardScaler()",
         "detail": "gradient_boosting_xgboost",
         "documentation": {}
     },
@@ -914,7 +1238,7 @@
         "kind": 5,
         "importPath": "gradient_boosting_xgboost",
         "description": "gradient_boosting_xgboost",
-        "peekOfCode": "target = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (XGBoost can work without scaling but we keep it for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)",
+        "peekOfCode": "target = 'price'\n# Filter the dataframe to required columns\ndf = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (XGBoost can work without scaling, but we keep it for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)",
         "detail": "gradient_boosting_xgboost",
         "documentation": {}
     },
@@ -923,7 +1247,7 @@
         "kind": 5,
         "importPath": "gradient_boosting_xgboost",
         "description": "gradient_boosting_xgboost",
-        "peekOfCode": "df = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (XGBoost can work without scaling but we keep it for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: XGBoost Regressor",
+        "peekOfCode": "df = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (XGBoost can work without scaling, but we keep it for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# ================================",
         "detail": "gradient_boosting_xgboost",
         "documentation": {}
     },
@@ -932,7 +1256,7 @@
         "kind": 5,
         "importPath": "gradient_boosting_xgboost",
         "description": "gradient_boosting_xgboost",
-        "peekOfCode": "X = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (XGBoost can work without scaling but we keep it for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: XGBoost Regressor\nmodel = xgb.XGBRegressor(random_state=42, n_estimators=100, objective='reg:squarederror')\nmodel.fit(X_train_scaled, y_train)",
+        "peekOfCode": "X = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (XGBoost can work without scaling, but we keep it for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# ================================\n# Train XGBoost Regressor\n# ================================",
         "detail": "gradient_boosting_xgboost",
         "documentation": {}
     },
@@ -941,7 +1265,7 @@
         "kind": 5,
         "importPath": "gradient_boosting_xgboost",
         "description": "gradient_boosting_xgboost",
-        "peekOfCode": "y = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (XGBoost can work without scaling but we keep it for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: XGBoost Regressor\nmodel = xgb.XGBRegressor(random_state=42, n_estimators=100, objective='reg:squarederror')\nmodel.fit(X_train_scaled, y_train)\n# Predictions",
+        "peekOfCode": "y = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (XGBoost can work without scaling, but we keep it for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# ================================\n# Train XGBoost Regressor\n# ================================\nmodel = xgb.XGBRegressor(random_state=42, n_estimators=100, objective='reg:squarederror')",
         "detail": "gradient_boosting_xgboost",
         "documentation": {}
     },
@@ -950,7 +1274,7 @@
         "kind": 5,
         "importPath": "gradient_boosting_xgboost",
         "description": "gradient_boosting_xgboost",
-        "peekOfCode": "scaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: XGBoost Regressor\nmodel = xgb.XGBRegressor(random_state=42, n_estimators=100, objective='reg:squarederror')\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance",
+        "peekOfCode": "scaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# ================================\n# Train XGBoost Regressor\n# ================================\nmodel = xgb.XGBRegressor(random_state=42, n_estimators=100, objective='reg:squarederror')\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)",
         "detail": "gradient_boosting_xgboost",
         "documentation": {}
     },
@@ -959,7 +1283,7 @@
         "kind": 5,
         "importPath": "gradient_boosting_xgboost",
         "description": "gradient_boosting_xgboost",
-        "peekOfCode": "X_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: XGBoost Regressor\nmodel = xgb.XGBRegressor(random_state=42, n_estimators=100, objective='reg:squarederror')\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)",
+        "peekOfCode": "X_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# ================================\n# Train XGBoost Regressor\n# ================================\nmodel = xgb.XGBRegressor(random_state=42, n_estimators=100, objective='reg:squarederror')\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)",
         "detail": "gradient_boosting_xgboost",
         "documentation": {}
     },
@@ -968,7 +1292,7 @@
         "kind": 5,
         "importPath": "gradient_boosting_xgboost",
         "description": "gradient_boosting_xgboost",
-        "peekOfCode": "X_test_scaled = scaler.transform(X_test)\n# Train Model: XGBoost Regressor\nmodel = xgb.XGBRegressor(random_state=42, n_estimators=100, objective='reg:squarederror')\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)",
+        "peekOfCode": "X_test_scaled = scaler.transform(X_test)\n# ================================\n# Train XGBoost Regressor\n# ================================\nmodel = xgb.XGBRegressor(random_state=42, n_estimators=100, objective='reg:squarederror')\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Performance Metrics",
         "detail": "gradient_boosting_xgboost",
         "documentation": {}
     },
@@ -977,7 +1301,7 @@
         "kind": 5,
         "importPath": "gradient_boosting_xgboost",
         "description": "gradient_boosting_xgboost",
-        "peekOfCode": "model = xgb.XGBRegressor(random_state=42, n_estimators=100, objective='reg:squarederror')\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))",
+        "peekOfCode": "model = xgb.XGBRegressor(random_state=42, n_estimators=100, objective='reg:squarederror')\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Performance Metrics\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))",
         "detail": "gradient_boosting_xgboost",
         "documentation": {}
     },
@@ -986,7 +1310,7 @@
         "kind": 5,
         "importPath": "gradient_boosting_xgboost",
         "description": "gradient_boosting_xgboost",
-        "peekOfCode": "y_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"XGBoost Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"XGBoost Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler",
+        "peekOfCode": "y_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Performance Metrics\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"XGBoost Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")",
         "detail": "gradient_boosting_xgboost",
         "documentation": {}
     },
@@ -995,7 +1319,7 @@
         "kind": 5,
         "importPath": "gradient_boosting_xgboost",
         "description": "gradient_boosting_xgboost",
-        "peekOfCode": "y_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"XGBoost Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"XGBoost Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_xgboost_model.pkl\")",
+        "peekOfCode": "y_test_pred = model.predict(X_test_scaled)\n# Performance Metrics\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"XGBoost Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"XGBoost Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")",
         "detail": "gradient_boosting_xgboost",
         "documentation": {}
     },
@@ -1004,7 +1328,7 @@
         "kind": 5,
         "importPath": "gradient_boosting_xgboost",
         "description": "gradient_boosting_xgboost",
-        "peekOfCode": "train_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"XGBoost Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"XGBoost Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_xgboost_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"XGBoost model training complete! Saved as 'house_price_xgboost_model.pkl'.\")",
+        "peekOfCode": "train_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"XGBoost Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"XGBoost Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"XGBoost Regressor - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save Model & Scaler",
         "detail": "gradient_boosting_xgboost",
         "documentation": {}
     },
@@ -1013,7 +1337,7 @@
         "kind": 5,
         "importPath": "gradient_boosting_xgboost",
         "description": "gradient_boosting_xgboost",
-        "peekOfCode": "test_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"XGBoost Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"XGBoost Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_xgboost_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"XGBoost model training complete! Saved as 'house_price_xgboost_model.pkl'.\")\n# -------- PLOTTING CHARTS -------- #",
+        "peekOfCode": "test_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"XGBoost Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"XGBoost Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"XGBoost Regressor - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_xgboost_model.pkl\")",
         "detail": "gradient_boosting_xgboost",
         "documentation": {}
     },
@@ -1022,7 +1346,7 @@
         "kind": 5,
         "importPath": "gradient_boosting_xgboost",
         "description": "gradient_boosting_xgboost",
-        "peekOfCode": "train_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"XGBoost Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"XGBoost Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_xgboost_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"XGBoost model training complete! Saved as 'house_price_xgboost_model.pkl'.\")\n# -------- PLOTTING CHARTS -------- #\n# 1️⃣ Price Distribution",
+        "peekOfCode": "train_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"XGBoost Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"XGBoost Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"XGBoost Regressor - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_xgboost_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")",
         "detail": "gradient_boosting_xgboost",
         "documentation": {}
     },
@@ -1031,7 +1355,97 @@
         "kind": 5,
         "importPath": "gradient_boosting_xgboost",
         "description": "gradient_boosting_xgboost",
-        "peekOfCode": "test_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"XGBoost Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"XGBoost Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_xgboost_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"XGBoost model training complete! Saved as 'house_price_xgboost_model.pkl'.\")\n# -------- PLOTTING CHARTS -------- #\n# 1️⃣ Price Distribution\nplt.figure(figsize=(8, 5))",
+        "peekOfCode": "test_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"XGBoost Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"XGBoost Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"XGBoost Regressor - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_xgboost_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"XGBoost model training complete! Saved as 'house_price_xgboost_model.pkl'.\")",
+        "detail": "gradient_boosting_xgboost",
+        "documentation": {}
+    },
+    {
+        "label": "train_r2",
+        "kind": 5,
+        "importPath": "gradient_boosting_xgboost",
+        "description": "gradient_boosting_xgboost",
+        "peekOfCode": "train_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"XGBoost Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"XGBoost Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"XGBoost Regressor - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_xgboost_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"XGBoost model training complete! Saved as 'house_price_xgboost_model.pkl'.\")\n# ================================",
+        "detail": "gradient_boosting_xgboost",
+        "documentation": {}
+    },
+    {
+        "label": "test_r2",
+        "kind": 5,
+        "importPath": "gradient_boosting_xgboost",
+        "description": "gradient_boosting_xgboost",
+        "peekOfCode": "test_r2 = r2_score(y_test, y_test_pred)\nprint(f\"XGBoost Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"XGBoost Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"XGBoost Regressor - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_xgboost_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"XGBoost model training complete! Saved as 'house_price_xgboost_model.pkl'.\")\n# ================================\n# Additional: Confusion Metrics for Regression",
+        "detail": "gradient_boosting_xgboost",
+        "documentation": {}
+    },
+    {
+        "label": "median_price_threshold",
+        "kind": 5,
+        "importPath": "gradient_boosting_xgboost",
+        "description": "gradient_boosting_xgboost",
+        "peekOfCode": "median_price_threshold = df['price'].median()\ny_test_class = (y_test > median_price_threshold).astype(int)\ny_test_pred_class = (y_test_pred > median_price_threshold).astype(int)\nconf_matrix = confusion_matrix(y_test_class, y_test_pred_class)\nprint(\"\\nConfusion Matrix (Test Data):\")\nprint(conf_matrix)\nprint(\"\\nClassification Report (Test Data):\")\nprint(classification_report(y_test_class, y_test_pred_class))\n# Visualize the confusion matrix\nplt.figure(figsize=(6, 5))",
+        "detail": "gradient_boosting_xgboost",
+        "documentation": {}
+    },
+    {
+        "label": "y_test_class",
+        "kind": 5,
+        "importPath": "gradient_boosting_xgboost",
+        "description": "gradient_boosting_xgboost",
+        "peekOfCode": "y_test_class = (y_test > median_price_threshold).astype(int)\ny_test_pred_class = (y_test_pred > median_price_threshold).astype(int)\nconf_matrix = confusion_matrix(y_test_class, y_test_pred_class)\nprint(\"\\nConfusion Matrix (Test Data):\")\nprint(conf_matrix)\nprint(\"\\nClassification Report (Test Data):\")\nprint(classification_report(y_test_class, y_test_pred_class))\n# Visualize the confusion matrix\nplt.figure(figsize=(6, 5))\nsns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues')",
+        "detail": "gradient_boosting_xgboost",
+        "documentation": {}
+    },
+    {
+        "label": "y_test_pred_class",
+        "kind": 5,
+        "importPath": "gradient_boosting_xgboost",
+        "description": "gradient_boosting_xgboost",
+        "peekOfCode": "y_test_pred_class = (y_test_pred > median_price_threshold).astype(int)\nconf_matrix = confusion_matrix(y_test_class, y_test_pred_class)\nprint(\"\\nConfusion Matrix (Test Data):\")\nprint(conf_matrix)\nprint(\"\\nClassification Report (Test Data):\")\nprint(classification_report(y_test_class, y_test_pred_class))\n# Visualize the confusion matrix\nplt.figure(figsize=(6, 5))\nsns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues')\nplt.title(\"Confusion Matrix (Test Data)\")",
+        "detail": "gradient_boosting_xgboost",
+        "documentation": {}
+    },
+    {
+        "label": "conf_matrix",
+        "kind": 5,
+        "importPath": "gradient_boosting_xgboost",
+        "description": "gradient_boosting_xgboost",
+        "peekOfCode": "conf_matrix = confusion_matrix(y_test_class, y_test_pred_class)\nprint(\"\\nConfusion Matrix (Test Data):\")\nprint(conf_matrix)\nprint(\"\\nClassification Report (Test Data):\")\nprint(classification_report(y_test_class, y_test_pred_class))\n# Visualize the confusion matrix\nplt.figure(figsize=(6, 5))\nsns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues')\nplt.title(\"Confusion Matrix (Test Data)\")\nplt.xlabel(\"Predicted Class\")",
+        "detail": "gradient_boosting_xgboost",
+        "documentation": {}
+    },
+    {
+        "label": "mean_price",
+        "kind": 5,
+        "importPath": "gradient_boosting_xgboost",
+        "description": "gradient_boosting_xgboost",
+        "peekOfCode": "mean_price = df['price'].mean()\nmedian_price = df['price'].median()\nxlims = ax.get_xlim()\nylims = ax.get_ylim()\nax.text(xlims[1]*0.6, ylims[1]*0.8, f\"Mean: {mean_price:.2f}\\nMedian: {median_price:.2f}\",\n        bbox=dict(facecolor='white', alpha=0.5))\nplt.show()\n# 2️⃣ Feature vs. Price Scatter Plots with correlation coefficients\nfig, axes = plt.subplots(2, 2, figsize=(12, 10))\nfor i, feature in enumerate(features):",
+        "detail": "gradient_boosting_xgboost",
+        "documentation": {}
+    },
+    {
+        "label": "median_price",
+        "kind": 5,
+        "importPath": "gradient_boosting_xgboost",
+        "description": "gradient_boosting_xgboost",
+        "peekOfCode": "median_price = df['price'].median()\nxlims = ax.get_xlim()\nylims = ax.get_ylim()\nax.text(xlims[1]*0.6, ylims[1]*0.8, f\"Mean: {mean_price:.2f}\\nMedian: {median_price:.2f}\",\n        bbox=dict(facecolor='white', alpha=0.5))\nplt.show()\n# 2️⃣ Feature vs. Price Scatter Plots with correlation coefficients\nfig, axes = plt.subplots(2, 2, figsize=(12, 10))\nfor i, feature in enumerate(features):\n    row, col = divmod(i, 2)",
+        "detail": "gradient_boosting_xgboost",
+        "documentation": {}
+    },
+    {
+        "label": "xlims",
+        "kind": 5,
+        "importPath": "gradient_boosting_xgboost",
+        "description": "gradient_boosting_xgboost",
+        "peekOfCode": "xlims = ax.get_xlim()\nylims = ax.get_ylim()\nax.text(xlims[1]*0.6, ylims[1]*0.8, f\"Mean: {mean_price:.2f}\\nMedian: {median_price:.2f}\",\n        bbox=dict(facecolor='white', alpha=0.5))\nplt.show()\n# 2️⃣ Feature vs. Price Scatter Plots with correlation coefficients\nfig, axes = plt.subplots(2, 2, figsize=(12, 10))\nfor i, feature in enumerate(features):\n    row, col = divmod(i, 2)\n    sns.scatterplot(x=df[feature], y=df['price'], ax=axes[row, col], color='red')",
+        "detail": "gradient_boosting_xgboost",
+        "documentation": {}
+    },
+    {
+        "label": "ylims",
+        "kind": 5,
+        "importPath": "gradient_boosting_xgboost",
+        "description": "gradient_boosting_xgboost",
+        "peekOfCode": "ylims = ax.get_ylim()\nax.text(xlims[1]*0.6, ylims[1]*0.8, f\"Mean: {mean_price:.2f}\\nMedian: {median_price:.2f}\",\n        bbox=dict(facecolor='white', alpha=0.5))\nplt.show()\n# 2️⃣ Feature vs. Price Scatter Plots with correlation coefficients\nfig, axes = plt.subplots(2, 2, figsize=(12, 10))\nfor i, feature in enumerate(features):\n    row, col = divmod(i, 2)\n    sns.scatterplot(x=df[feature], y=df['price'], ax=axes[row, col], color='red')\n    axes[row, col].set_title(f\"{feature} vs Price\")",
         "detail": "gradient_boosting_xgboost",
         "documentation": {}
     },
@@ -1040,7 +1454,7 @@
         "kind": 5,
         "importPath": "gradient_boost_lightgbm",
         "description": "gradient_boost_lightgbm",
-        "peekOfCode": "df = pd.read_csv(\"data/Bengaluru_House_Data.csv\")\n# Data Cleaning\ndf = df.dropna()  # Remove missing values\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')",
+        "peekOfCode": "df = pd.read_csv(\"data/Bengaluru_House_Data.csv\")\n# Data Cleaning: Remove missing values\ndf = df.dropna()\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)\n# Convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list",
         "detail": "gradient_boost_lightgbm",
         "documentation": {}
     },
@@ -1049,7 +1463,7 @@
         "kind": 5,
         "importPath": "gradient_boost_lightgbm",
         "description": "gradient_boost_lightgbm",
-        "peekOfCode": "df = df.dropna()  # Remove missing values\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'",
+        "peekOfCode": "df = df.dropna()\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)\n# Convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'",
         "detail": "gradient_boost_lightgbm",
         "documentation": {}
     },
@@ -1058,7 +1472,7 @@
         "kind": 5,
         "importPath": "gradient_boost_lightgbm",
         "description": "gradient_boost_lightgbm",
-        "peekOfCode": "df = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]",
+        "peekOfCode": "df = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)\n# Convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter dataframe to required columns\ndf = df[features + [target]]",
         "detail": "gradient_boost_lightgbm",
         "documentation": {}
     },
@@ -1067,7 +1481,7 @@
         "kind": 5,
         "importPath": "gradient_boost_lightgbm",
         "description": "gradient_boost_lightgbm",
-        "peekOfCode": "df['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]\n# Train-Test Split",
+        "peekOfCode": "df['total_sqft'] = df['total_sqft'].astype(float)\n# Convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter dataframe to required columns\ndf = df[features + [target]]\n# Train-Test Split",
         "detail": "gradient_boost_lightgbm",
         "documentation": {}
     },
@@ -1076,7 +1490,7 @@
         "kind": 5,
         "importPath": "gradient_boost_lightgbm",
         "description": "gradient_boost_lightgbm",
-        "peekOfCode": "features = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (LightGBM can handle unscaled data, but scaling is kept for consistency)\nscaler = StandardScaler()",
+        "peekOfCode": "features = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter dataframe to required columns\ndf = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (LightGBM can handle unscaled data, but scaling is kept for consistency)\nscaler = StandardScaler()",
         "detail": "gradient_boost_lightgbm",
         "documentation": {}
     },
@@ -1085,7 +1499,7 @@
         "kind": 5,
         "importPath": "gradient_boost_lightgbm",
         "description": "gradient_boost_lightgbm",
-        "peekOfCode": "target = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (LightGBM can handle unscaled data, but scaling is kept for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)",
+        "peekOfCode": "target = 'price'\n# Filter dataframe to required columns\ndf = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (LightGBM can handle unscaled data, but scaling is kept for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)",
         "detail": "gradient_boost_lightgbm",
         "documentation": {}
     },
@@ -1094,7 +1508,7 @@
         "kind": 5,
         "importPath": "gradient_boost_lightgbm",
         "description": "gradient_boost_lightgbm",
-        "peekOfCode": "df = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (LightGBM can handle unscaled data, but scaling is kept for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: LightGBM Regressor",
+        "peekOfCode": "df = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (LightGBM can handle unscaled data, but scaling is kept for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# ================================",
         "detail": "gradient_boost_lightgbm",
         "documentation": {}
     },
@@ -1103,7 +1517,7 @@
         "kind": 5,
         "importPath": "gradient_boost_lightgbm",
         "description": "gradient_boost_lightgbm",
-        "peekOfCode": "X = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (LightGBM can handle unscaled data, but scaling is kept for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: LightGBM Regressor\nmodel = lgb.LGBMRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)",
+        "peekOfCode": "X = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (LightGBM can handle unscaled data, but scaling is kept for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# ================================\n# Train LightGBM Regressor\n# ================================",
         "detail": "gradient_boost_lightgbm",
         "documentation": {}
     },
@@ -1112,7 +1526,7 @@
         "kind": 5,
         "importPath": "gradient_boost_lightgbm",
         "description": "gradient_boost_lightgbm",
-        "peekOfCode": "y = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (LightGBM can handle unscaled data, but scaling is kept for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: LightGBM Regressor\nmodel = lgb.LGBMRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)\n# Predictions",
+        "peekOfCode": "y = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (LightGBM can handle unscaled data, but scaling is kept for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# ================================\n# Train LightGBM Regressor\n# ================================\nmodel = lgb.LGBMRegressor(random_state=42, n_estimators=100)",
         "detail": "gradient_boost_lightgbm",
         "documentation": {}
     },
@@ -1121,7 +1535,7 @@
         "kind": 5,
         "importPath": "gradient_boost_lightgbm",
         "description": "gradient_boost_lightgbm",
-        "peekOfCode": "scaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: LightGBM Regressor\nmodel = lgb.LGBMRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance",
+        "peekOfCode": "scaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# ================================\n# Train LightGBM Regressor\n# ================================\nmodel = lgb.LGBMRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)",
         "detail": "gradient_boost_lightgbm",
         "documentation": {}
     },
@@ -1130,7 +1544,7 @@
         "kind": 5,
         "importPath": "gradient_boost_lightgbm",
         "description": "gradient_boost_lightgbm",
-        "peekOfCode": "X_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: LightGBM Regressor\nmodel = lgb.LGBMRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)",
+        "peekOfCode": "X_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# ================================\n# Train LightGBM Regressor\n# ================================\nmodel = lgb.LGBMRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)",
         "detail": "gradient_boost_lightgbm",
         "documentation": {}
     },
@@ -1139,7 +1553,7 @@
         "kind": 5,
         "importPath": "gradient_boost_lightgbm",
         "description": "gradient_boost_lightgbm",
-        "peekOfCode": "X_test_scaled = scaler.transform(X_test)\n# Train Model: LightGBM Regressor\nmodel = lgb.LGBMRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)",
+        "peekOfCode": "X_test_scaled = scaler.transform(X_test)\n# ================================\n# Train LightGBM Regressor\n# ================================\nmodel = lgb.LGBMRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance Metrics",
         "detail": "gradient_boost_lightgbm",
         "documentation": {}
     },
@@ -1148,7 +1562,7 @@
         "kind": 5,
         "importPath": "gradient_boost_lightgbm",
         "description": "gradient_boost_lightgbm",
-        "peekOfCode": "model = lgb.LGBMRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))",
+        "peekOfCode": "model = lgb.LGBMRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance Metrics\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))",
         "detail": "gradient_boost_lightgbm",
         "documentation": {}
     },
@@ -1157,7 +1571,7 @@
         "kind": 5,
         "importPath": "gradient_boost_lightgbm",
         "description": "gradient_boost_lightgbm",
-        "peekOfCode": "y_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"LightGBM Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"LightGBM Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler",
+        "peekOfCode": "y_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance Metrics\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"LightGBM Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")",
         "detail": "gradient_boost_lightgbm",
         "documentation": {}
     },
@@ -1166,7 +1580,7 @@
         "kind": 5,
         "importPath": "gradient_boost_lightgbm",
         "description": "gradient_boost_lightgbm",
-        "peekOfCode": "y_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"LightGBM Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"LightGBM Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_lightgbm_model.pkl\")",
+        "peekOfCode": "y_test_pred = model.predict(X_test_scaled)\n# Model Performance Metrics\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"LightGBM Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"LightGBM Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")",
         "detail": "gradient_boost_lightgbm",
         "documentation": {}
     },
@@ -1175,7 +1589,7 @@
         "kind": 5,
         "importPath": "gradient_boost_lightgbm",
         "description": "gradient_boost_lightgbm",
-        "peekOfCode": "train_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"LightGBM Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"LightGBM Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_lightgbm_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"LightGBM model training complete! Saved as 'house_price_lightgbm_model.pkl'.\")",
+        "peekOfCode": "train_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"LightGBM Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"LightGBM Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"LightGBM Regressor - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save Model & Scaler",
         "detail": "gradient_boost_lightgbm",
         "documentation": {}
     },
@@ -1184,7 +1598,7 @@
         "kind": 5,
         "importPath": "gradient_boost_lightgbm",
         "description": "gradient_boost_lightgbm",
-        "peekOfCode": "test_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"LightGBM Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"LightGBM Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_lightgbm_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"LightGBM model training complete! Saved as 'house_price_lightgbm_model.pkl'.\")\n# -------- PLOTTING CHARTS -------- #",
+        "peekOfCode": "test_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"LightGBM Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"LightGBM Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"LightGBM Regressor - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_lightgbm_model.pkl\")",
         "detail": "gradient_boost_lightgbm",
         "documentation": {}
     },
@@ -1193,7 +1607,7 @@
         "kind": 5,
         "importPath": "gradient_boost_lightgbm",
         "description": "gradient_boost_lightgbm",
-        "peekOfCode": "train_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"LightGBM Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"LightGBM Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_lightgbm_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"LightGBM model training complete! Saved as 'house_price_lightgbm_model.pkl'.\")\n# -------- PLOTTING CHARTS -------- #\n# 1️⃣ Price Distribution",
+        "peekOfCode": "train_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"LightGBM Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"LightGBM Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"LightGBM Regressor - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_lightgbm_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")",
         "detail": "gradient_boost_lightgbm",
         "documentation": {}
     },
@@ -1202,7 +1616,97 @@
         "kind": 5,
         "importPath": "gradient_boost_lightgbm",
         "description": "gradient_boost_lightgbm",
-        "peekOfCode": "test_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"LightGBM Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"LightGBM Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_lightgbm_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"LightGBM model training complete! Saved as 'house_price_lightgbm_model.pkl'.\")\n# -------- PLOTTING CHARTS -------- #\n# 1️⃣ Price Distribution\nplt.figure(figsize=(8, 5))",
+        "peekOfCode": "test_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"LightGBM Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"LightGBM Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"LightGBM Regressor - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_lightgbm_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"LightGBM model training complete! Saved as 'house_price_lightgbm_model.pkl'.\")",
+        "detail": "gradient_boost_lightgbm",
+        "documentation": {}
+    },
+    {
+        "label": "train_r2",
+        "kind": 5,
+        "importPath": "gradient_boost_lightgbm",
+        "description": "gradient_boost_lightgbm",
+        "peekOfCode": "train_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"LightGBM Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"LightGBM Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"LightGBM Regressor - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_lightgbm_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"LightGBM model training complete! Saved as 'house_price_lightgbm_model.pkl'.\")\n# ================================",
+        "detail": "gradient_boost_lightgbm",
+        "documentation": {}
+    },
+    {
+        "label": "test_r2",
+        "kind": 5,
+        "importPath": "gradient_boost_lightgbm",
+        "description": "gradient_boost_lightgbm",
+        "peekOfCode": "test_r2 = r2_score(y_test, y_test_pred)\nprint(f\"LightGBM Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"LightGBM Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"LightGBM Regressor - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_lightgbm_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"LightGBM model training complete! Saved as 'house_price_lightgbm_model.pkl'.\")\n# ================================\n# Additional: Confusion Metrics for Regression",
+        "detail": "gradient_boost_lightgbm",
+        "documentation": {}
+    },
+    {
+        "label": "median_price_threshold",
+        "kind": 5,
+        "importPath": "gradient_boost_lightgbm",
+        "description": "gradient_boost_lightgbm",
+        "peekOfCode": "median_price_threshold = df['price'].median()\ny_test_class = (y_test > median_price_threshold).astype(int)\ny_test_pred_class = (y_test_pred > median_price_threshold).astype(int)\nconf_matrix = confusion_matrix(y_test_class, y_test_pred_class)\nprint(\"\\nConfusion Matrix (Test Data):\")\nprint(conf_matrix)\nprint(\"\\nClassification Report (Test Data):\")\nprint(classification_report(y_test_class, y_test_pred_class))\n# Visualize the confusion matrix\nplt.figure(figsize=(6, 5))",
+        "detail": "gradient_boost_lightgbm",
+        "documentation": {}
+    },
+    {
+        "label": "y_test_class",
+        "kind": 5,
+        "importPath": "gradient_boost_lightgbm",
+        "description": "gradient_boost_lightgbm",
+        "peekOfCode": "y_test_class = (y_test > median_price_threshold).astype(int)\ny_test_pred_class = (y_test_pred > median_price_threshold).astype(int)\nconf_matrix = confusion_matrix(y_test_class, y_test_pred_class)\nprint(\"\\nConfusion Matrix (Test Data):\")\nprint(conf_matrix)\nprint(\"\\nClassification Report (Test Data):\")\nprint(classification_report(y_test_class, y_test_pred_class))\n# Visualize the confusion matrix\nplt.figure(figsize=(6, 5))\nsns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues')",
+        "detail": "gradient_boost_lightgbm",
+        "documentation": {}
+    },
+    {
+        "label": "y_test_pred_class",
+        "kind": 5,
+        "importPath": "gradient_boost_lightgbm",
+        "description": "gradient_boost_lightgbm",
+        "peekOfCode": "y_test_pred_class = (y_test_pred > median_price_threshold).astype(int)\nconf_matrix = confusion_matrix(y_test_class, y_test_pred_class)\nprint(\"\\nConfusion Matrix (Test Data):\")\nprint(conf_matrix)\nprint(\"\\nClassification Report (Test Data):\")\nprint(classification_report(y_test_class, y_test_pred_class))\n# Visualize the confusion matrix\nplt.figure(figsize=(6, 5))\nsns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues')\nplt.title(\"Confusion Matrix (Test Data)\")",
+        "detail": "gradient_boost_lightgbm",
+        "documentation": {}
+    },
+    {
+        "label": "conf_matrix",
+        "kind": 5,
+        "importPath": "gradient_boost_lightgbm",
+        "description": "gradient_boost_lightgbm",
+        "peekOfCode": "conf_matrix = confusion_matrix(y_test_class, y_test_pred_class)\nprint(\"\\nConfusion Matrix (Test Data):\")\nprint(conf_matrix)\nprint(\"\\nClassification Report (Test Data):\")\nprint(classification_report(y_test_class, y_test_pred_class))\n# Visualize the confusion matrix\nplt.figure(figsize=(6, 5))\nsns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues')\nplt.title(\"Confusion Matrix (Test Data)\")\nplt.xlabel(\"Predicted Class\")",
+        "detail": "gradient_boost_lightgbm",
+        "documentation": {}
+    },
+    {
+        "label": "mean_price",
+        "kind": 5,
+        "importPath": "gradient_boost_lightgbm",
+        "description": "gradient_boost_lightgbm",
+        "peekOfCode": "mean_price = df['price'].mean()\nmedian_price = df['price'].median()\nxlims = ax.get_xlim()\nylims = ax.get_ylim()\nax.text(xlims[1]*0.6, ylims[1]*0.8, f\"Mean: {mean_price:.2f}\\nMedian: {median_price:.2f}\",\n        bbox=dict(facecolor='white', alpha=0.5))\nplt.show()\n# 2️⃣ Feature vs. Price Scatter Plots with correlation coefficients\nfig, axes = plt.subplots(2, 2, figsize=(12, 10))\nfor i, feature in enumerate(features):",
+        "detail": "gradient_boost_lightgbm",
+        "documentation": {}
+    },
+    {
+        "label": "median_price",
+        "kind": 5,
+        "importPath": "gradient_boost_lightgbm",
+        "description": "gradient_boost_lightgbm",
+        "peekOfCode": "median_price = df['price'].median()\nxlims = ax.get_xlim()\nylims = ax.get_ylim()\nax.text(xlims[1]*0.6, ylims[1]*0.8, f\"Mean: {mean_price:.2f}\\nMedian: {median_price:.2f}\",\n        bbox=dict(facecolor='white', alpha=0.5))\nplt.show()\n# 2️⃣ Feature vs. Price Scatter Plots with correlation coefficients\nfig, axes = plt.subplots(2, 2, figsize=(12, 10))\nfor i, feature in enumerate(features):\n    row, col = divmod(i, 2)",
+        "detail": "gradient_boost_lightgbm",
+        "documentation": {}
+    },
+    {
+        "label": "xlims",
+        "kind": 5,
+        "importPath": "gradient_boost_lightgbm",
+        "description": "gradient_boost_lightgbm",
+        "peekOfCode": "xlims = ax.get_xlim()\nylims = ax.get_ylim()\nax.text(xlims[1]*0.6, ylims[1]*0.8, f\"Mean: {mean_price:.2f}\\nMedian: {median_price:.2f}\",\n        bbox=dict(facecolor='white', alpha=0.5))\nplt.show()\n# 2️⃣ Feature vs. Price Scatter Plots with correlation coefficients\nfig, axes = plt.subplots(2, 2, figsize=(12, 10))\nfor i, feature in enumerate(features):\n    row, col = divmod(i, 2)\n    sns.scatterplot(x=df[feature], y=df['price'], ax=axes[row, col], color='red')",
+        "detail": "gradient_boost_lightgbm",
+        "documentation": {}
+    },
+    {
+        "label": "ylims",
+        "kind": 5,
+        "importPath": "gradient_boost_lightgbm",
+        "description": "gradient_boost_lightgbm",
+        "peekOfCode": "ylims = ax.get_ylim()\nax.text(xlims[1]*0.6, ylims[1]*0.8, f\"Mean: {mean_price:.2f}\\nMedian: {median_price:.2f}\",\n        bbox=dict(facecolor='white', alpha=0.5))\nplt.show()\n# 2️⃣ Feature vs. Price Scatter Plots with correlation coefficients\nfig, axes = plt.subplots(2, 2, figsize=(12, 10))\nfor i, feature in enumerate(features):\n    row, col = divmod(i, 2)\n    sns.scatterplot(x=df[feature], y=df['price'], ax=axes[row, col], color='red')\n    axes[row, col].set_title(f\"{feature} vs Price\")",
         "detail": "gradient_boost_lightgbm",
         "documentation": {}
     },
@@ -1211,7 +1715,7 @@
         "kind": 5,
         "importPath": "random_forest_regressor",
         "description": "random_forest_regressor",
-        "peekOfCode": "df = pd.read_csv(\"data/Bengaluru_House_Data.csv\")\n# Data Cleaning\ndf = df.dropna()  # Remove missing values\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')",
+        "peekOfCode": "df = pd.read_csv(\"data/Bengaluru_House_Data.csv\")\n# Data Cleaning: Remove missing values\ndf = df.dropna()\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)\n# Convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list and target",
         "detail": "random_forest_regressor",
         "documentation": {}
     },
@@ -1220,7 +1724,7 @@
         "kind": 5,
         "importPath": "random_forest_regressor",
         "description": "random_forest_regressor",
-        "peekOfCode": "df = df.dropna()  # Remove missing values\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'",
+        "peekOfCode": "df = df.dropna()\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)\n# Convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list and target\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'",
         "detail": "random_forest_regressor",
         "documentation": {}
     },
@@ -1229,7 +1733,7 @@
         "kind": 5,
         "importPath": "random_forest_regressor",
         "description": "random_forest_regressor",
-        "peekOfCode": "df = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]",
+        "peekOfCode": "df = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)\n# Convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list and target\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\ndf = df[features + [target]]\n# Train-Test Split",
         "detail": "random_forest_regressor",
         "documentation": {}
     },
@@ -1238,7 +1742,7 @@
         "kind": 5,
         "importPath": "random_forest_regressor",
         "description": "random_forest_regressor",
-        "peekOfCode": "df['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]\n# Train-Test Split",
+        "peekOfCode": "df['total_sqft'] = df['total_sqft'].astype(float)\n# Convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list and target\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\ndf = df[features + [target]]\n# Train-Test Split\nX = df[features]",
         "detail": "random_forest_regressor",
         "documentation": {}
     },
@@ -1247,7 +1751,7 @@
         "kind": 5,
         "importPath": "random_forest_regressor",
         "description": "random_forest_regressor",
-        "peekOfCode": "features = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (optional for tree-based methods, but included for consistency)\nscaler = StandardScaler()",
+        "peekOfCode": "features = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\ndf = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (optional for tree-based methods, but included for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)",
         "detail": "random_forest_regressor",
         "documentation": {}
     },
@@ -1256,7 +1760,7 @@
         "kind": 5,
         "importPath": "random_forest_regressor",
         "description": "random_forest_regressor",
-        "peekOfCode": "target = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (optional for tree-based methods, but included for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)",
+        "peekOfCode": "target = 'price'\ndf = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (optional for tree-based methods, but included for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)",
         "detail": "random_forest_regressor",
         "documentation": {}
     },
@@ -1265,7 +1769,7 @@
         "kind": 5,
         "importPath": "random_forest_regressor",
         "description": "random_forest_regressor",
-        "peekOfCode": "df = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (optional for tree-based methods, but included for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: Random Forest Regressor",
+        "peekOfCode": "df = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (optional for tree-based methods, but included for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# ================================",
         "detail": "random_forest_regressor",
         "documentation": {}
     },
@@ -1274,7 +1778,7 @@
         "kind": 5,
         "importPath": "random_forest_regressor",
         "description": "random_forest_regressor",
-        "peekOfCode": "X = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (optional for tree-based methods, but included for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: Random Forest Regressor\nmodel = RandomForestRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)",
+        "peekOfCode": "X = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (optional for tree-based methods, but included for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# ================================\n# Train Random Forest Regressor\n# ================================",
         "detail": "random_forest_regressor",
         "documentation": {}
     },
@@ -1283,7 +1787,7 @@
         "kind": 5,
         "importPath": "random_forest_regressor",
         "description": "random_forest_regressor",
-        "peekOfCode": "y = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (optional for tree-based methods, but included for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: Random Forest Regressor\nmodel = RandomForestRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)\n# Predictions",
+        "peekOfCode": "y = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features (optional for tree-based methods, but included for consistency)\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# ================================\n# Train Random Forest Regressor\n# ================================\nmodel = RandomForestRegressor(random_state=42, n_estimators=100)",
         "detail": "random_forest_regressor",
         "documentation": {}
     },
@@ -1292,7 +1796,7 @@
         "kind": 5,
         "importPath": "random_forest_regressor",
         "description": "random_forest_regressor",
-        "peekOfCode": "scaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: Random Forest Regressor\nmodel = RandomForestRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance",
+        "peekOfCode": "scaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# ================================\n# Train Random Forest Regressor\n# ================================\nmodel = RandomForestRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)",
         "detail": "random_forest_regressor",
         "documentation": {}
     },
@@ -1301,7 +1805,7 @@
         "kind": 5,
         "importPath": "random_forest_regressor",
         "description": "random_forest_regressor",
-        "peekOfCode": "X_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model: Random Forest Regressor\nmodel = RandomForestRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)",
+        "peekOfCode": "X_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# ================================\n# Train Random Forest Regressor\n# ================================\nmodel = RandomForestRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)",
         "detail": "random_forest_regressor",
         "documentation": {}
     },
@@ -1310,7 +1814,7 @@
         "kind": 5,
         "importPath": "random_forest_regressor",
         "description": "random_forest_regressor",
-        "peekOfCode": "X_test_scaled = scaler.transform(X_test)\n# Train Model: Random Forest Regressor\nmodel = RandomForestRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)",
+        "peekOfCode": "X_test_scaled = scaler.transform(X_test)\n# ================================\n# Train Random Forest Regressor\n# ================================\nmodel = RandomForestRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Compute Performance Metrics",
         "detail": "random_forest_regressor",
         "documentation": {}
     },
@@ -1319,7 +1823,7 @@
         "kind": 5,
         "importPath": "random_forest_regressor",
         "description": "random_forest_regressor",
-        "peekOfCode": "model = RandomForestRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))",
+        "peekOfCode": "model = RandomForestRegressor(random_state=42, n_estimators=100)\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Compute Performance Metrics\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))",
         "detail": "random_forest_regressor",
         "documentation": {}
     },
@@ -1328,7 +1832,7 @@
         "kind": 5,
         "importPath": "random_forest_regressor",
         "description": "random_forest_regressor",
-        "peekOfCode": "y_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Random Forest Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Random Forest Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler",
+        "peekOfCode": "y_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Compute Performance Metrics\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Random Forest Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")",
         "detail": "random_forest_regressor",
         "documentation": {}
     },
@@ -1337,7 +1841,7 @@
         "kind": 5,
         "importPath": "random_forest_regressor",
         "description": "random_forest_regressor",
-        "peekOfCode": "y_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Random Forest Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Random Forest Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_random_forest_model.pkl\")",
+        "peekOfCode": "y_test_pred = model.predict(X_test_scaled)\n# Compute Performance Metrics\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Random Forest Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Random Forest Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")",
         "detail": "random_forest_regressor",
         "documentation": {}
     },
@@ -1346,7 +1850,7 @@
         "kind": 5,
         "importPath": "random_forest_regressor",
         "description": "random_forest_regressor",
-        "peekOfCode": "train_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Random Forest Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Random Forest Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_random_forest_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Random Forest model training complete! Saved as 'house_price_random_forest_model.pkl'.\")",
+        "peekOfCode": "train_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Random Forest Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Random Forest Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"Random Forest Regressor - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save Model & Scaler",
         "detail": "random_forest_regressor",
         "documentation": {}
     },
@@ -1355,7 +1859,7 @@
         "kind": 5,
         "importPath": "random_forest_regressor",
         "description": "random_forest_regressor",
-        "peekOfCode": "test_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Random Forest Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Random Forest Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_random_forest_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Random Forest model training complete! Saved as 'house_price_random_forest_model.pkl'.\")\n# -------- PLOTTING CHARTS -------- #",
+        "peekOfCode": "test_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Random Forest Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Random Forest Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"Random Forest Regressor - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_random_forest_model.pkl\")",
         "detail": "random_forest_regressor",
         "documentation": {}
     },
@@ -1364,7 +1868,7 @@
         "kind": 5,
         "importPath": "random_forest_regressor",
         "description": "random_forest_regressor",
-        "peekOfCode": "train_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Random Forest Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Random Forest Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_random_forest_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Random Forest model training complete! Saved as 'house_price_random_forest_model.pkl'.\")\n# -------- PLOTTING CHARTS -------- #\n# 1️⃣ Price Distribution",
+        "peekOfCode": "train_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Random Forest Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Random Forest Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"Random Forest Regressor - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_random_forest_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")",
         "detail": "random_forest_regressor",
         "documentation": {}
     },
@@ -1373,7 +1877,97 @@
         "kind": 5,
         "importPath": "random_forest_regressor",
         "description": "random_forest_regressor",
-        "peekOfCode": "test_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Random Forest Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Random Forest Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_random_forest_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Random Forest model training complete! Saved as 'house_price_random_forest_model.pkl'.\")\n# -------- PLOTTING CHARTS -------- #\n# 1️⃣ Price Distribution\nplt.figure(figsize=(8, 5))",
+        "peekOfCode": "test_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Random Forest Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Random Forest Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"Random Forest Regressor - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_random_forest_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Random Forest model training complete! Saved as 'house_price_random_forest_model.pkl'.\")",
+        "detail": "random_forest_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "train_r2",
+        "kind": 5,
+        "importPath": "random_forest_regressor",
+        "description": "random_forest_regressor",
+        "peekOfCode": "train_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Random Forest Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Random Forest Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"Random Forest Regressor - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_random_forest_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Random Forest model training complete! Saved as 'house_price_random_forest_model.pkl'.\")\n# ================================",
+        "detail": "random_forest_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "test_r2",
+        "kind": 5,
+        "importPath": "random_forest_regressor",
+        "description": "random_forest_regressor",
+        "peekOfCode": "test_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Random Forest Regressor - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Random Forest Regressor - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"Random Forest Regressor - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_random_forest_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Random Forest model training complete! Saved as 'house_price_random_forest_model.pkl'.\")\n# ================================\n# Additional: Confusion Metrics for Regression",
+        "detail": "random_forest_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "median_price_threshold",
+        "kind": 5,
+        "importPath": "random_forest_regressor",
+        "description": "random_forest_regressor",
+        "peekOfCode": "median_price_threshold = df['price'].median()\ny_test_class = (y_test > median_price_threshold).astype(int)\ny_test_pred_class = (y_test_pred > median_price_threshold).astype(int)\nconf_matrix = confusion_matrix(y_test_class, y_test_pred_class)\nprint(\"\\nConfusion Matrix (Test Data):\")\nprint(conf_matrix)\nprint(\"\\nClassification Report (Test Data):\")\nprint(classification_report(y_test_class, y_test_pred_class))\n# Visualize the confusion matrix\nplt.figure(figsize=(6, 5))",
+        "detail": "random_forest_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "y_test_class",
+        "kind": 5,
+        "importPath": "random_forest_regressor",
+        "description": "random_forest_regressor",
+        "peekOfCode": "y_test_class = (y_test > median_price_threshold).astype(int)\ny_test_pred_class = (y_test_pred > median_price_threshold).astype(int)\nconf_matrix = confusion_matrix(y_test_class, y_test_pred_class)\nprint(\"\\nConfusion Matrix (Test Data):\")\nprint(conf_matrix)\nprint(\"\\nClassification Report (Test Data):\")\nprint(classification_report(y_test_class, y_test_pred_class))\n# Visualize the confusion matrix\nplt.figure(figsize=(6, 5))\nsns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues')",
+        "detail": "random_forest_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "y_test_pred_class",
+        "kind": 5,
+        "importPath": "random_forest_regressor",
+        "description": "random_forest_regressor",
+        "peekOfCode": "y_test_pred_class = (y_test_pred > median_price_threshold).astype(int)\nconf_matrix = confusion_matrix(y_test_class, y_test_pred_class)\nprint(\"\\nConfusion Matrix (Test Data):\")\nprint(conf_matrix)\nprint(\"\\nClassification Report (Test Data):\")\nprint(classification_report(y_test_class, y_test_pred_class))\n# Visualize the confusion matrix\nplt.figure(figsize=(6, 5))\nsns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues')\nplt.title(\"Confusion Matrix (Test Data)\")",
+        "detail": "random_forest_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "conf_matrix",
+        "kind": 5,
+        "importPath": "random_forest_regressor",
+        "description": "random_forest_regressor",
+        "peekOfCode": "conf_matrix = confusion_matrix(y_test_class, y_test_pred_class)\nprint(\"\\nConfusion Matrix (Test Data):\")\nprint(conf_matrix)\nprint(\"\\nClassification Report (Test Data):\")\nprint(classification_report(y_test_class, y_test_pred_class))\n# Visualize the confusion matrix\nplt.figure(figsize=(6, 5))\nsns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues')\nplt.title(\"Confusion Matrix (Test Data)\")\nplt.xlabel(\"Predicted Class\")",
+        "detail": "random_forest_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "mean_price",
+        "kind": 5,
+        "importPath": "random_forest_regressor",
+        "description": "random_forest_regressor",
+        "peekOfCode": "mean_price = df['price'].mean()\nmedian_price = df['price'].median()\nxlims = ax.get_xlim()\nylims = ax.get_ylim()\nax.text(xlims[1]*0.6, ylims[1]*0.8, f\"Mean: {mean_price:.2f}\\nMedian: {median_price:.2f}\",\n        bbox=dict(facecolor='white', alpha=0.5))\nplt.show()\n# 2️⃣ Feature vs. Price Scatter Plots with Correlation Coefficients\nfig, axes = plt.subplots(2, 2, figsize=(12, 10))\nfor i, feature in enumerate(features):",
+        "detail": "random_forest_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "median_price",
+        "kind": 5,
+        "importPath": "random_forest_regressor",
+        "description": "random_forest_regressor",
+        "peekOfCode": "median_price = df['price'].median()\nxlims = ax.get_xlim()\nylims = ax.get_ylim()\nax.text(xlims[1]*0.6, ylims[1]*0.8, f\"Mean: {mean_price:.2f}\\nMedian: {median_price:.2f}\",\n        bbox=dict(facecolor='white', alpha=0.5))\nplt.show()\n# 2️⃣ Feature vs. Price Scatter Plots with Correlation Coefficients\nfig, axes = plt.subplots(2, 2, figsize=(12, 10))\nfor i, feature in enumerate(features):\n    row, col = divmod(i, 2)",
+        "detail": "random_forest_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "xlims",
+        "kind": 5,
+        "importPath": "random_forest_regressor",
+        "description": "random_forest_regressor",
+        "peekOfCode": "xlims = ax.get_xlim()\nylims = ax.get_ylim()\nax.text(xlims[1]*0.6, ylims[1]*0.8, f\"Mean: {mean_price:.2f}\\nMedian: {median_price:.2f}\",\n        bbox=dict(facecolor='white', alpha=0.5))\nplt.show()\n# 2️⃣ Feature vs. Price Scatter Plots with Correlation Coefficients\nfig, axes = plt.subplots(2, 2, figsize=(12, 10))\nfor i, feature in enumerate(features):\n    row, col = divmod(i, 2)\n    sns.scatterplot(x=df[feature], y=df['price'], ax=axes[row, col], color='red')",
+        "detail": "random_forest_regressor",
+        "documentation": {}
+    },
+    {
+        "label": "ylims",
+        "kind": 5,
+        "importPath": "random_forest_regressor",
+        "description": "random_forest_regressor",
+        "peekOfCode": "ylims = ax.get_ylim()\nax.text(xlims[1]*0.6, ylims[1]*0.8, f\"Mean: {mean_price:.2f}\\nMedian: {median_price:.2f}\",\n        bbox=dict(facecolor='white', alpha=0.5))\nplt.show()\n# 2️⃣ Feature vs. Price Scatter Plots with Correlation Coefficients\nfig, axes = plt.subplots(2, 2, figsize=(12, 10))\nfor i, feature in enumerate(features):\n    row, col = divmod(i, 2)\n    sns.scatterplot(x=df[feature], y=df['price'], ax=axes[row, col], color='red')\n    axes[row, col].set_title(f\"{feature} vs Price\")",
         "detail": "random_forest_regressor",
         "documentation": {}
     },
@@ -1382,7 +1976,7 @@
         "kind": 5,
         "importPath": "train_model",
         "description": "train_model",
-        "peekOfCode": "df = pd.read_csv(\"data/Bengaluru_House_Data.csv\")\n# Data Cleaning\ndf = df.dropna()  # Remove missing values\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')",
+        "peekOfCode": "df = pd.read_csv(\"data/Bengaluru_House_Data.csv\")\n# Data Cleaning: Remove missing values\ndf = df.dropna()\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)\n# Convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Define features and target",
         "detail": "train_model",
         "documentation": {}
     },
@@ -1391,7 +1985,7 @@
         "kind": 5,
         "importPath": "train_model",
         "description": "train_model",
-        "peekOfCode": "df = df.dropna()  # Remove missing values\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'",
+        "peekOfCode": "df = df.dropna()\n# Keep only rows where 'total_sqft' is numeric\ndf = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)\n# Convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Define features and target\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'",
         "detail": "train_model",
         "documentation": {}
     },
@@ -1400,7 +1994,7 @@
         "kind": 5,
         "importPath": "train_model",
         "description": "train_model",
-        "peekOfCode": "df = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]",
+        "peekOfCode": "df = df[df['total_sqft'].apply(lambda x: str(x).replace('.', '').isdigit())]\ndf['total_sqft'] = df['total_sqft'].astype(float)\n# Convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Define features and target\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]",
         "detail": "train_model",
         "documentation": {}
     },
@@ -1409,7 +2003,7 @@
         "kind": 5,
         "importPath": "train_model",
         "description": "train_model",
-        "peekOfCode": "df['total_sqft'] = df['total_sqft'].astype(float)  # Convert to float\n# If needed, convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Updated feature list (using 'size' instead of 'bhk')\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]\n# Train-Test Split",
+        "peekOfCode": "df['total_sqft'] = df['total_sqft'].astype(float)\n# Convert 'size' to numeric by extracting the number (e.g., \"2 BHK\" or \"2 Bedroom\" -> 2)\nif 'size' in df.columns:\n    df['size'] = df['size'].str.extract(r\"(\\d+)\").astype(float)\n# Define features and target\nfeatures = ['total_sqft', 'bath', 'balcony', 'size']\ntarget = 'price'\n# Filter the dataframe to contain only the required columns\ndf = df[features + [target]]\n# Train-Test Split",
         "detail": "train_model",
         "documentation": {}
     },
@@ -1436,7 +2030,7 @@
         "kind": 5,
         "importPath": "train_model",
         "description": "train_model",
-        "peekOfCode": "df = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model",
+        "peekOfCode": "df = df[features + [target]]\n# Train-Test Split\nX = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# ================================",
         "detail": "train_model",
         "documentation": {}
     },
@@ -1445,7 +2039,7 @@
         "kind": 5,
         "importPath": "train_model",
         "description": "train_model",
-        "peekOfCode": "X = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model\nmodel = LinearRegression()\nmodel.fit(X_train_scaled, y_train)",
+        "peekOfCode": "X = df[features]\ny = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# ================================\n# Train Linear Regression Model\n# ================================",
         "detail": "train_model",
         "documentation": {}
     },
@@ -1454,7 +2048,7 @@
         "kind": 5,
         "importPath": "train_model",
         "description": "train_model",
-        "peekOfCode": "y = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model\nmodel = LinearRegression()\nmodel.fit(X_train_scaled, y_train)\n# Predictions",
+        "peekOfCode": "y = df[target]\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n# Scale the features\nscaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# ================================\n# Train Linear Regression Model\n# ================================\nmodel = LinearRegression()",
         "detail": "train_model",
         "documentation": {}
     },
@@ -1463,7 +2057,7 @@
         "kind": 5,
         "importPath": "train_model",
         "description": "train_model",
-        "peekOfCode": "scaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model\nmodel = LinearRegression()\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance",
+        "peekOfCode": "scaler = StandardScaler()\nX_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# ================================\n# Train Linear Regression Model\n# ================================\nmodel = LinearRegression()\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)",
         "detail": "train_model",
         "documentation": {}
     },
@@ -1472,7 +2066,7 @@
         "kind": 5,
         "importPath": "train_model",
         "description": "train_model",
-        "peekOfCode": "X_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# Train Model\nmodel = LinearRegression()\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)",
+        "peekOfCode": "X_train_scaled = scaler.fit_transform(X_train)\nX_test_scaled = scaler.transform(X_test)\n# ================================\n# Train Linear Regression Model\n# ================================\nmodel = LinearRegression()\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)",
         "detail": "train_model",
         "documentation": {}
     },
@@ -1481,7 +2075,7 @@
         "kind": 5,
         "importPath": "train_model",
         "description": "train_model",
-        "peekOfCode": "X_test_scaled = scaler.transform(X_test)\n# Train Model\nmodel = LinearRegression()\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)",
+        "peekOfCode": "X_test_scaled = scaler.transform(X_test)\n# ================================\n# Train Linear Regression Model\n# ================================\nmodel = LinearRegression()\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Performance Metrics",
         "detail": "train_model",
         "documentation": {}
     },
@@ -1490,7 +2084,7 @@
         "kind": 5,
         "importPath": "train_model",
         "description": "train_model",
-        "peekOfCode": "model = LinearRegression()\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))",
+        "peekOfCode": "model = LinearRegression()\nmodel.fit(X_train_scaled, y_train)\n# Predictions\ny_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Performance Metrics\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))",
         "detail": "train_model",
         "documentation": {}
     },
@@ -1499,7 +2093,7 @@
         "kind": 5,
         "importPath": "train_model",
         "description": "train_model",
-        "peekOfCode": "y_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler",
+        "peekOfCode": "y_train_pred = model.predict(X_train_scaled)\ny_test_pred = model.predict(X_test_scaled)\n# Performance Metrics\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Linear Regression - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")",
         "detail": "train_model",
         "documentation": {}
     },
@@ -1508,7 +2102,7 @@
         "kind": 5,
         "importPath": "train_model",
         "description": "train_model",
-        "peekOfCode": "y_test_pred = model.predict(X_test_scaled)\n# Model Performance\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_model.pkl\")",
+        "peekOfCode": "y_test_pred = model.predict(X_test_scaled)\n# Performance Metrics\ntrain_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Linear Regression - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Linear Regression - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")",
         "detail": "train_model",
         "documentation": {}
     },
@@ -1517,7 +2111,7 @@
         "kind": 5,
         "importPath": "train_model",
         "description": "train_model",
-        "peekOfCode": "train_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Model training complete! Saved as 'house_price_model.pkl'.\")",
+        "peekOfCode": "train_mae = mean_absolute_error(y_train, y_train_pred)\ntest_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Linear Regression - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Linear Regression - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"Linear Regression - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save Model & Scaler",
         "detail": "train_model",
         "documentation": {}
     },
@@ -1526,7 +2120,7 @@
         "kind": 5,
         "importPath": "train_model",
         "description": "train_model",
-        "peekOfCode": "test_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Model training complete! Saved as 'house_price_model.pkl'.\")\n# -------- PLOTTING CHARTS -------- #",
+        "peekOfCode": "test_mae = mean_absolute_error(y_test, y_test_pred)\ntrain_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Linear Regression - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Linear Regression - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"Linear Regression - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_model.pkl\")",
         "detail": "train_model",
         "documentation": {}
     },
@@ -1535,7 +2129,7 @@
         "kind": 5,
         "importPath": "train_model",
         "description": "train_model",
-        "peekOfCode": "train_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Model training complete! Saved as 'house_price_model.pkl'.\")\n# -------- PLOTTING CHARTS -------- #\n# 1️⃣ Price Distribution",
+        "peekOfCode": "train_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))\ntest_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Linear Regression - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Linear Regression - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"Linear Regression - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")",
         "detail": "train_model",
         "documentation": {}
     },
@@ -1544,7 +2138,97 @@
         "kind": 5,
         "importPath": "train_model",
         "description": "train_model",
-        "peekOfCode": "test_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\nprint(f\"Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Model training complete! Saved as 'house_price_model.pkl'.\")\n# -------- PLOTTING CHARTS -------- #\n# 1️⃣ Price Distribution\nplt.figure(figsize=(8, 5))",
+        "peekOfCode": "test_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))\ntrain_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Linear Regression - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Linear Regression - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"Linear Regression - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Model training complete! Saved as 'house_price_model.pkl'.\")",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "train_r2",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "train_r2 = r2_score(y_train, y_train_pred)\ntest_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Linear Regression - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Linear Regression - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"Linear Regression - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Model training complete! Saved as 'house_price_model.pkl'.\")\n# ================================",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "test_r2",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "test_r2 = r2_score(y_test, y_test_pred)\nprint(f\"Linear Regression - Train MAE: {train_mae:.2f}, Test MAE: {test_mae:.2f}\")\nprint(f\"Linear Regression - Train RMSE: {train_rmse:.2f}, Test RMSE: {test_rmse:.2f}\")\nprint(f\"Linear Regression - Train R²: {train_r2:.2f}, Test R²: {test_r2:.2f}\")\n# Save Model & Scaler\njoblib.dump(model, \"house_price_model.pkl\")\njoblib.dump(scaler, \"scaler.pkl\")\nprint(\"Model training complete! Saved as 'house_price_model.pkl'.\")\n# ================================\n# Additional: Confusion Metrics for Regression",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "median_price_threshold",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "median_price_threshold = df['price'].median()\ny_test_class = (y_test > median_price_threshold).astype(int)\ny_test_pred_class = (y_test_pred > median_price_threshold).astype(int)\nconf_matrix = confusion_matrix(y_test_class, y_test_pred_class)\nprint(\"\\nConfusion Matrix (Test Data):\")\nprint(conf_matrix)\nprint(\"\\nClassification Report (Test Data):\")\nprint(classification_report(y_test_class, y_test_pred_class))\n# Visualize the confusion matrix\nplt.figure(figsize=(6, 5))",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "y_test_class",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "y_test_class = (y_test > median_price_threshold).astype(int)\ny_test_pred_class = (y_test_pred > median_price_threshold).astype(int)\nconf_matrix = confusion_matrix(y_test_class, y_test_pred_class)\nprint(\"\\nConfusion Matrix (Test Data):\")\nprint(conf_matrix)\nprint(\"\\nClassification Report (Test Data):\")\nprint(classification_report(y_test_class, y_test_pred_class))\n# Visualize the confusion matrix\nplt.figure(figsize=(6, 5))\nsns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues')",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "y_test_pred_class",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "y_test_pred_class = (y_test_pred > median_price_threshold).astype(int)\nconf_matrix = confusion_matrix(y_test_class, y_test_pred_class)\nprint(\"\\nConfusion Matrix (Test Data):\")\nprint(conf_matrix)\nprint(\"\\nClassification Report (Test Data):\")\nprint(classification_report(y_test_class, y_test_pred_class))\n# Visualize the confusion matrix\nplt.figure(figsize=(6, 5))\nsns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues')\nplt.title(\"Confusion Matrix (Test Data)\")",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "conf_matrix",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "conf_matrix = confusion_matrix(y_test_class, y_test_pred_class)\nprint(\"\\nConfusion Matrix (Test Data):\")\nprint(conf_matrix)\nprint(\"\\nClassification Report (Test Data):\")\nprint(classification_report(y_test_class, y_test_pred_class))\n# Visualize the confusion matrix\nplt.figure(figsize=(6, 5))\nsns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues')\nplt.title(\"Confusion Matrix (Test Data)\")\nplt.xlabel(\"Predicted Class\")",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "mean_price",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "mean_price = df['price'].mean()\nmedian_price = df['price'].median()\nxlims = ax.get_xlim()\nylims = ax.get_ylim()\nax.text(xlims[1]*0.6, ylims[1]*0.8, f\"Mean: {mean_price:.2f}\\nMedian: {median_price:.2f}\",\n        bbox=dict(facecolor='white', alpha=0.5))\nplt.show()\n# 2️⃣ Feature vs Price Scatter Plots with correlation coefficients\nfig, axes = plt.subplots(2, 2, figsize=(12, 10))\nfor i, feature in enumerate(features):",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "median_price",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "median_price = df['price'].median()\nxlims = ax.get_xlim()\nylims = ax.get_ylim()\nax.text(xlims[1]*0.6, ylims[1]*0.8, f\"Mean: {mean_price:.2f}\\nMedian: {median_price:.2f}\",\n        bbox=dict(facecolor='white', alpha=0.5))\nplt.show()\n# 2️⃣ Feature vs Price Scatter Plots with correlation coefficients\nfig, axes = plt.subplots(2, 2, figsize=(12, 10))\nfor i, feature in enumerate(features):\n    row, col = divmod(i, 2)",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "xlims",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "xlims = ax.get_xlim()\nylims = ax.get_ylim()\nax.text(xlims[1]*0.6, ylims[1]*0.8, f\"Mean: {mean_price:.2f}\\nMedian: {median_price:.2f}\",\n        bbox=dict(facecolor='white', alpha=0.5))\nplt.show()\n# 2️⃣ Feature vs Price Scatter Plots with correlation coefficients\nfig, axes = plt.subplots(2, 2, figsize=(12, 10))\nfor i, feature in enumerate(features):\n    row, col = divmod(i, 2)\n    sns.scatterplot(x=df[feature], y=df['price'], ax=axes[row, col], color='red')",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "ylims",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "ylims = ax.get_ylim()\nax.text(xlims[1]*0.6, ylims[1]*0.8, f\"Mean: {mean_price:.2f}\\nMedian: {median_price:.2f}\",\n        bbox=dict(facecolor='white', alpha=0.5))\nplt.show()\n# 2️⃣ Feature vs Price Scatter Plots with correlation coefficients\nfig, axes = plt.subplots(2, 2, figsize=(12, 10))\nfor i, feature in enumerate(features):\n    row, col = divmod(i, 2)\n    sns.scatterplot(x=df[feature], y=df['price'], ax=axes[row, col], color='red')\n    axes[row, col].set_title(f\"{feature} vs Price\")",
         "detail": "train_model",
         "documentation": {}
     }
